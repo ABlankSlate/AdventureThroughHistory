@@ -20,7 +20,7 @@
   </head>
   
   <body>
-    <section class="hero is-success pattern-history is-fullheight">
+    <section class="hero is-info is-fullheight">
       <div class="hero-head">
         <header class="navbar">
           <div class="container">
@@ -36,7 +36,7 @@
             </div>
             <div id="navbar-menu" class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item is-active" href="./index.html">
+                <a class="navbar-item" href="./index.html">
                   <span class="icon">
                     <i class="fas fa-home"></i>
                   </span>
@@ -63,38 +63,50 @@
       </div>
     
       <div class="hero-body">
-        <div class="container has-text-centered" time-loader-1>
-          <h1 class="title animated pulse">
-            A walk through time awaits.
-          </h1>
-          <div class="select" time-capsule-select>
-            <select>
-              <option selected disabled>Select Time Period</option>
-              <option>50s</option>
-              <option>60s</option>
-              <option>70s</option>
-              <option>80s</option>
-              <option>90s</option>
-            </select>
-          </div>
-          <a class="button is-link" time-capsule-button disabled>
-            <span>Enter Time Capsule</span>
-            <span class="icon">
-              <i class="fas fa-caret-right"></i>
+        <div class="container has-text-centered">
+          <h1 class="title ml6" style="visibility: hidden;">
+            <span class="text-wrapper">
+              <span class="letters">Welcome to The Fabulous 50s!</span>
             </span>
-          </a>
-        </div>
-        <div class="container has-text-centered" style="display: none;" time-loader-2>
-          <h1 class="title">
-            <i class="far fa-hourglass animated pulse" data-hourglass></i>
-            <br>
-            Travelling to the <span data-time-selection></span>...
           </h1>
+          <p class="subtitle animated fadeInDown">
+            Scroll Down <i class="far fa-caret-square-down is-vertically-aligned"></i>
+          </p>
         </div>
+      </div>
+
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li class="is-active">
+                <a>Welcome</a>
+              </li>
+              <li>
+                <a>Influential People</a>
+              </li>
+              <li>
+                <a>Important Events</a>
+              </li>
+              <li>
+                <a>Global Hotspots</a>
+              </li>
+              <li>
+                <a>Technological Advances</a>
+              </li>
+              <li>
+                <a>One Big Idea</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </section>
     
+    <iframe style="display: none;" width="1" height="1" data-music></iframe>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>

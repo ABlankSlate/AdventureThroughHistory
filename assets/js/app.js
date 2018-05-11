@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const path = window.location.pathname.split('/');
 var page = path[path.length-1].split('.')[0];
-
 if(page == '') page = 'index';
 
 switch(page) {
@@ -38,6 +37,10 @@ switch(page) {
       }, 500);
     });
     animateHourglass('[data-hourglass]', 0);
+    break;
+  case '50s':
+    ml6();
+    playMusic('HlscxE-EQAQ');
     break;
   default:
     console.log('No data for this page.');
@@ -66,4 +69,35 @@ function animateHourglass(element, frame) {
   setTimeout(function() {
     animateHourglass(element, frame);
   }, 300);
+}
+
+function playMusic(code) {
+  const music = $('[data-music]');
+  music.attr('href', 'https://www.youtube.com/embed/' + code + '?autoplay=1&loop=1&enablejsapi=1');
+}
+
+function onPlayerReady(event) {
+  console.log('GO: ' + event);
+  event.target.setVolume(10);
+}
+
+function ml6() {
+  $('.ml6 .letters').each(function(){
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  setTimeout(function() {
+    $('.ml6').attr('style', '');
+  }, 50);
+  
+  anime.timeline({loop: false})
+    .add({
+      targets: '.ml6 .letter',
+      translateY: ["1.1em", 0],
+      translateZ: 0,
+      duration: 750,
+      delay: function(el, i) {
+        return 50 * i;
+      }
+    });
 }
