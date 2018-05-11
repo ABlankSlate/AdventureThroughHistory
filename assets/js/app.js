@@ -12,6 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+$(window).on('scroll', function() {
+	var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+  // (scrollHeight - scrollPosition) / scrollHeight === 0 | bottom of page
+	console.log('DEBUG: ' + scrollPosition);
+});
+
 const path = window.location.pathname.split('/');
 var page = path[path.length-1].split('.')[0];
 if(page == '') page = 'index';
