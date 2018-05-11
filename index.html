@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adventure Through History</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  
+  <body>
+    <section class="hero is-success pattern-history is-fullheight">
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <h4 class="title is-4">Adventure through History</h4>
+              </a>
+              <span class="navbar-burger burger" data-target="navbar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbar-menu" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  <span class="icon">
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <span>Home</span>
+                </a>
+                <a class="navbar-item">
+                  <span class="icon">
+                    <i class="fas fa-chart-line"></i>
+                  </span>
+                  <span>Full Timeline</span>
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-success is-inverted" href="https://github.com/ABlankSlate/AdventureThroughHistory">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            A walk through time awaits.
+          </h1>
+          <div class="select">
+            <select>
+              <option selected disabled>Select Time Period</option>
+              <option>50s</option>
+              <option>60s</option>
+              <option>70s</option>
+              <option>80s</option>
+              <option>90s</option>
+            </select>
+          </div>
+          <a class="button is-link" disabled>
+            <span>Enter Time Capsule</span>
+            <span class="icon">
+              <i class="fas fa-caret-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
