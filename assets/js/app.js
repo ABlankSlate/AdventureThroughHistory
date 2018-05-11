@@ -39,8 +39,7 @@ switch(page) {
     animateHourglass('[data-hourglass]', 0);
     break;
   case '50s':
-    ml6();
-    playMusic('HlscxE-EQAQ');
+    ml1();
     break;
   default:
     console.log('No data for this page.');
@@ -71,16 +70,6 @@ function animateHourglass(element, frame) {
   }, 300);
 }
 
-function playMusic(code) {
-  const music = $('[data-music]');
-  music.attr('href', 'https://www.youtube.com/embed/' + code + '?autoplay=1&loop=1&enablejsapi=1');
-}
-
-function onPlayerReady(event) {
-  console.log('GO: ' + event);
-  event.target.setVolume(10);
-}
-
 function ml6() {
   $('.ml6 .letters').each(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
@@ -100,4 +89,37 @@ function ml6() {
         return 50 * i;
       }
     });
+}
+
+function ml1() {
+  $('.ml1 .letters').each(function(){
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  setTimeout(function() {
+    $('.ml1').attr('style', '');
+  }, 50);
+  
+  anime.timeline({loop: false})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: function(el, i) {
+      return 70 * (i+1)
+    }
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: function(el, i, l) {
+      return 80 * (l - i);
+    }
+  });
 }
