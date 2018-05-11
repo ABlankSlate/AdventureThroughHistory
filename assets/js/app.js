@@ -12,11 +12,24 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+var fixedNav = false;
+
 $(window).on('scroll', function() {
 	var scrollHeight = $(document).height();
 	var scrollPosition = $(window).height() + $(window).scrollTop();
   // (scrollHeight - scrollPosition) / scrollHeight === 0 | bottom of page
 	console.log('DEBUG: ' + scrollPosition);
+  if(scrollPosition >= 1363) {
+    if(!fixedNav) {
+      fixedNav = true;
+      $('[nav-tabs]').addClass('is-fixed-top');
+    }
+  } else {
+    if(fixedNav) {
+      fixedNav = false;
+      $('[nav-tabs]').removeClass('is-fixed-top');
+    }
+  }
 });
 
 const path = window.location.pathname.split('/');
