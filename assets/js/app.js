@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const path = window.location.pathname.split('/');
-const page = path[path.length-1].split('.')[0];
+var page = path[path.length-1].split('.')[0];
 
 if(page == '') page = 'index';
 
