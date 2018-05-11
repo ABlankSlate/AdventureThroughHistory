@@ -71,7 +71,7 @@ function animateHourglass(element, frame) {
 }
 
 function ml6() {
-  $('.ml6 .letters').each(function(){
+  $('.ml6 .letters').each(function() {
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
@@ -92,7 +92,7 @@ function ml6() {
 }
 
 function ml1() {
-  $('.ml1 .letters').each(function(){
+  $('.ml1 .letters').each(function() {
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
