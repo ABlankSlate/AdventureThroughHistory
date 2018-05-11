@@ -6,7 +6,7 @@
     <meta name="author" content="MWH-A">
     <meta name="designer" content="Ben">
     <meta name="description" content="Journey through history and learn about all the important people, events, hotspots, and technological advances from the 50s to 90s.">
-    <meta name="keywords" content="adventure through history,walk through time,50s,60s,70s,80s,90s">
+    <meta name="keywords" content="ablankslate,adventure through history,walk through time,50s,60s,70s,80s,90s">
     <meta name="google-site-verification" content="KqGxy-pRINQsw-J3Z1a1_gNrNrA9dg522apixcnLmHo">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +15,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   
@@ -35,13 +36,13 @@
             </div>
             <div id="navbar-menu" class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item is-active">
+                <a class="navbar-item is-active" href="./index.html">
                   <span class="icon">
                     <i class="fas fa-home"></i>
                   </span>
                   <span>Home</span>
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="./timeline.html">
                   <span class="icon">
                     <i class="fas fa-chart-line"></i>
                   </span>
@@ -62,11 +63,11 @@
       </div>
     
       <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">
+        <div class="container has-text-centered" time-loader-1>
+          <h1 class="title animated pulse">
             A walk through time awaits.
           </h1>
-          <div class="select">
+          <div class="select" time-capsule-select>
             <select>
               <option selected disabled>Select Time Period</option>
               <option>50s</option>
@@ -76,12 +77,19 @@
               <option>90s</option>
             </select>
           </div>
-          <a class="button is-link" disabled>
+          <a class="button is-link" time-capsule-button disabled>
             <span>Enter Time Capsule</span>
             <span class="icon">
               <i class="fas fa-caret-right"></i>
             </span>
           </a>
+        </div>
+        <div class="container has-text-centered" style="display: none;" time-loader-2>
+          <h1 class="title">
+            <i class="far fa-hourglass animated pulse" data-hourglass></i>
+            <br>
+            Travelling to the <span data-time-selection></span>...
+          </h1>
         </div>
       </div>
     </section>
