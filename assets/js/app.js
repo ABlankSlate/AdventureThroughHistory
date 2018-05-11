@@ -19,7 +19,7 @@ $(window).on('scroll', function() {
 	var scrollPosition = $(window).height() + $(window).scrollTop();
   // (scrollHeight - scrollPosition) / scrollHeight === 0 | bottom of page
 	console.log('DEBUG: ' + scrollPosition);
-  if(scrollPosition >= 1363) {
+  if(scrollPosition >= 1360) {
     if(!fixedNav) {
       fixedNav = true;
       $('[nav-tabs]').addClass('is-fixed-top');
