@@ -21,11 +21,13 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady(event) {
+  document.getElementsByTagName('body')[0].style = '';
   event.target.playVideo();
 }
 
 function onPlayerStateChange(event) {
   if(event.data == 0) {
+    document.getElementsByTagName('body')[0].style = 'background: black;';
     document.getElementById('video-bg').remove();
   }
 }
