@@ -26,7 +26,6 @@ function onPlayerReady(event) {
 
 function onPlayerStateChange(event) {
   if(event.data == 0) {
-    document.getElementsByTagName('body')[0].style = 'background: black;';
     document.getElementById('video-bg').remove();
   }
 }
