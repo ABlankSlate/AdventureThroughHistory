@@ -13,13 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 var fixedNav = false;
+var scrollListenerElements = [];
+var scrollListenerEvents = [];
+
+function addScrollListener(elem, callback) {
+  scrollListenerElements.push(elem);
+  scrollListenerEvents.push(callback);
+}
 
 $(window).on('scroll', function() {
-	var scrollHeight = $(document).height();
-	var scrollPosition = $(window).height() + $(window).scrollTop();
-  // (scrollHeight - scrollPosition) / scrollHeight === 0 | bottom of page
-	console.log('DEBUG: ' + scrollPosition);
-  if(scrollPosition >= 1360) {
+  if(!isScrolledIntoView('.hero-foot')) {
     if(!fixedNav) {
       fixedNav = true;
       $('[nav-tabs]').addClass('is-fixed-top');
@@ -30,7 +33,45 @@ $(window).on('scroll', function() {
       $('[nav-tabs]').removeClass('is-fixed-top');
     }
   }
+  for(var i=0; i<scrollListenerElements.length; i++) {
+    var elem = scrollListenerElements[i];
+    var keepEvent = false;
+    if(elem.indexOf('^') == 0) {
+      keepEvent = true;
+      elem = elem.substring(1, elem.length);
+    }
+    if(isScrolledIntoView($(elem)) 
+        && scrollListenerEvents[i] != undefined) {
+      scrollListenerEvents[i]();
+      if(!keepEvent) 
+        scrollListenerEvents[i] = undefined;
+    }
+  }
 });
+
+function isScrolledIntoView(elem) {
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+
+  var elemTop = $(elem).offset().top;
+  var elemBottom = elemTop + $(elem).height();
+
+  return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+function setActiveTab(tabRoot, active) {
+  var tabContainer = $(tabRoot + ' .container ul');
+  var activeTab = tabContainer.find('.is-active');
+  
+  activeTab.removeClass('is-active');
+  $(tabContainer).find('li:nth-child(' + active + ')').addClass('is-active');
+}
+
+function scrollToElem(elem) {
+  $('html, body').animate({
+    scrollTop: $(elem).offset().top
+  }, 500);
+}
 
 const path = window.location.pathname.split('/');
 var page = path[path.length-1].split('.')[0];
@@ -60,6 +101,30 @@ switch(page) {
     break;
   case '50s':
     ml1();
+
+    // Nav Tab Smooth Scroll
+    $('[nav-tabs] li a').on('click', function(e) {
+      e.preventDefault();
+      scrollToElem($(this).attr('href'));
+    });
+
+    // Nav Tab Active Listener
+    addScrollListener('^section:eq(0)', function() {setActiveTab('[nav-tabs]', 1)});
+    addScrollListener('^section:eq(3)', function() {setActiveTab('[nav-tabs]', 2)});
+    addScrollListener('^section:eq(4)', function() {setActiveTab('[nav-tabs]', 3)});
+    addScrollListener('^section:eq(7)', function() {setActiveTab('[nav-tabs]', 4)});
+    addScrollListener('^section:eq(9)', function() {setActiveTab('[nav-tabs]', 5)});
+    addScrollListener('^section:eq(10)', function() {setActiveTab('[nav-tabs]', 6)});
+
+    // Fidel Castro Effects
+    addScrollListener('[castro-img]', function() {$('[castro-img]').addClass('animated bounce')});
+    addScrollListener('[ml-castro-1]', function() {ml14('[ml-castro-1]')});
+    addScrollListener('[ml-castro-2]', function() {ml14('[ml-castro-2]')});
+
+    // Queen Elizabeth Effects
+    addScrollListener('[elizabeth-img]', function() {$('[elizabeth-img]').addClass('animated bounce')});
+    addScrollListener('[ml-elizabeth-1]', function() {ml14('[ml-elizabeth-1]')});
+    addScrollListener('[ml-elizabeth-1]', function() {ml14('[ml-elizabeth-2]')});
     break;
   default:
     console.log('No data for this page.');
@@ -88,6 +153,30 @@ function animateHourglass(element, frame) {
   setTimeout(function() {
     animateHourglass(element, frame);
   }, 300);
+}
+
+function ml14(rootElem) {
+  $(rootElem + ' .letters').each(function() {
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  setTimeout(function() {
+    $(rootElem).attr('style', '');
+  }, 50);
+  
+  anime.timeline({loop: false})
+  .add({
+    targets: rootElem + ' .letter',
+    opacity: [0,1],
+    translateX: [40,0],
+    translateZ: 0,
+    scaleX: [0.3, 1],
+    easing: "easeOutExpo",
+    duration: 800,
+    delay: function(el, i) {
+      return 150 + 25 * i;
+    }
+  });
 }
 
 function ml6() {
