@@ -1,3 +1,16 @@
+#video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.purge-bg {
+  background-color: transparent !important;
+}
+
 .tabs.is-fixed-top {
   position: fixed;
   top: 0;
