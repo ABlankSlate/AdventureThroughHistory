@@ -98,6 +98,18 @@ switch(page) {
       }, 500);
     });
     animateHourglass('[data-hourglass]', 0);
+    $('.hero-body').attr('style', '');
+    anime.timeline({loop: false})
+      .add({
+        targets: '.hero-body',
+        scale: [14,1],
+        opacity: [0,1],
+        easing: "easeOutCirc",
+        duration: 800,
+        delay: function(el, i) {
+          return 800 * i;
+        }
+    });
     break;
   case '50s':
     ml1();
