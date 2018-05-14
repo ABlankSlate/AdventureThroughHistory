@@ -122,10 +122,10 @@ switch(page) {
 
     // Nav Tab Active Listener
     addScrollListener('^section:eq(0)', function() {setActiveTab('[nav-tabs]', 1)});
-    addScrollListener('^section:eq(3)', function() {setActiveTab('[nav-tabs]', 2)});
+    addScrollListener('^section:eq(2)', function() {setActiveTab('[nav-tabs]', 2)});
     addScrollListener('^section:eq(4)', function() {setActiveTab('[nav-tabs]', 3)});
-    addScrollListener('^section:eq(7)', function() {setActiveTab('[nav-tabs]', 4)});
-    addScrollListener('^section:eq(9)', function() {setActiveTab('[nav-tabs]', 5)});
+    addScrollListener('^section:eq(6)', function() {setActiveTab('[nav-tabs]', 4)});
+    addScrollListener('^section:eq(8)', function() {setActiveTab('[nav-tabs]', 5)});
     addScrollListener('^section:eq(10)', function() {setActiveTab('[nav-tabs]', 6)});
 
     // Fidel Castro Effects
