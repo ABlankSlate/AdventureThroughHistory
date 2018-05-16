@@ -34,22 +34,22 @@
       },
       {
         "name": "Dr. Seuss",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/seuss.jpg",
         "personal_account": "I have been considered my people to be the most influential children’s book writer in the world. I have received many rewards for my life work. During WWII, I served as head of the animation department of the First Motion Picture Unit of the United States Air Forces. After the World War, I helped ease the minds of younglings by creating fun rhyming stories to also help them read. These stories encouraged kids to read more and have fun with it."
       },
       {
         "name": "Elvis Presley",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/elvis.jpg",
         "personal_account": "I have received multiple Grammy awards for my lifetime of music, and have shaped the world of music to come with my extremely popular songs of rock and roll. I was the most popular musician in the music realm in the 1950’s and on. Being entirely self taught, I have shown people they can do anything if they put their mind to it. I started off my career changing the game of music with my first popular song ‘Heartbreak Hotel’ which placed number one on the music charts."
       },
       {
         "name": "Nils Bohlin",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/bohlin.jpg",
         "personal_account": "I have been hired by Volvo in 1958 to design ejector seats for airplanes, along with four-point harnesses in those planes. Within the a year from that I developed a three-point seat belt introduced in car for optimal safety to passengers and drivers. This belt was widespread around the country and later required to be inside of all cars. Due to my invention, many lives have been saved and less deaths have occured due to accidents."
       },
       {
         "name": "Jonas Salk",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/salk.jpg",
         "personal_account": "I have developed the major vaccine for Polio in 1995. This disease was a very dangerous and deadly disease at the time which was killing people very rapidly and spreads person to person and causes paralysis. This vaccine I made saved thousands of lives of people infected or to be infected later without the vaccine. Thousands of kids died each year and the disease of Polio had reached maximum seriousness before the vaccine was developed."
       }
     ],
