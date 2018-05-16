@@ -132,6 +132,14 @@ switch(page) {
           $('[filler-timeframe]').html(hash);
           $('[filler-one-big-idea]').html(history['one_big_idea']);
 
+          // LR Content
+          var left = true;
+          history['influential_people'].forEach(person => {
+            var element = buildLRContent(person['name'], person['photo'], person['personal_account'], left);
+            $('[filler-influential-people]').append(element);
+            left = !left;
+          });
+
           // Nav Tab Smooth Scroll
           $('[nav-tabs] li a').on('click', function(e) {
             e.preventDefault();
@@ -273,4 +281,14 @@ function ml1() {
       return 80 * (l - i);
     }
   });
+}
+
+// Code Templates
+
+function buildLRContent(title, photo, content, is_left) {
+  if(is_left) {
+    return '<div class="columns"> <div class="column is-one-quarter"> <div class="box" bouncy-img> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> <div class="column is-half ml-sect"> <br> <h3 class="title is-3">' + title + '</h3> <p class="subtitle is-5"> ' + content + ' </p> </div> </div>';
+  } else {
+    return '<div class="columns"> <div class="column is-quarter"></div> <div class="column is-quarter mr-sect"> <h3 class="title is-3">' + title + '</h3> <p class="subtitle is-5"> ' + content + ' </p> </div> <div class="column is-one-quarter"> <div class="box" elizabeth-img> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> </div>';
+  }
 }
