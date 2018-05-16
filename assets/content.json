@@ -5,17 +5,17 @@
       {
         "name": "Fidel Castro",
         "photo": "/assets/img/castro.jpg",
-        "personal_account": "Equality in Cuba is necessary. I’ve done good, I’ve done bad, and I’ve made a change for better or for worse. I have established the first communist state in Cuba. People have have better health care and better housing in Cuba. Yet the citizens still feel the need to have word in the government. This will not happen for I am the supreme leader of this country. More arrests shall be made against my own people, for they do not respect my power. I used to preach open speech, yet now I despise it. My people need to know what I can do."
+        "personal_account": "Equality in Cuba is necessary. I’ve done good, I’ve done bad, and I’ve made a change for better or for worse. I have <highlight>established the first communist state in Cuba</highlight>. People have have better health care and better housing in Cuba. Yet the citizens still feel the need to have word in the government. This will not happen for I am the supreme leader of this country. More arrests shall be made against my own people, for they do not respect my power. I used to preach open speech, yet now I despise it. My people need to know what I can do."
       },
       {
         "name": "Queen Elizabeth of Great Britain",
         "photo": "/assets/img/elizabeth.jpg",
-        "personal_account": "I have been beat down as a horrible person since birth. Being a good person, I persevered through my troubles truthfully and nobly, proving innocence of any wrongdoings in my early years. Now, through ups and downs, I became the leader of one of the world’s superpowers. I led multiple defenses of raids from foreign countries. I gained respect from my own and even more respect from people in other countries. I spread the religion of protestantism and became the best Queen of Great Britain."
+        "personal_account": "I have been beat down as a horrible person since birth. Being a good person, I persevered through my troubles truthfully and nobly, proving innocence of any wrongdoings in my early years. Now, through ups and downs, I became the leader of one of the world’s superpowers. I led multiple defenses of raids from foreign countries. I gained respect from my own and even more respect from people in other countries. I <highlight>spread the religion of protestantism</highlight> and became the best Queen of Great Britain."
       },
       {
         "name": "Martin Luther King Jr.",
         "photo": "/assets/img/kingjr.jpg",
-        "personal_account": "My people have never been more oppressed, yet with my help, they have gained freedom. I have won the Nobel Peace Prize last year in 1964, showing a person of any race can do anything they put their mind to. Through the help help of the African American community standing up for the truth, we have come a long way. People seemed to love my dream speech in 1963, which started a revolution for equality. I hope more people stand up for what is right, as I feel my life will be taken very soon."
+        "personal_account": "My people have never been more oppressed, yet with my help, they have gained freedom. I have won the Nobel Peace Prize last year in 1964, showing a person of any race can do anything they put their mind to. Through the help of the African American community standing up for the truth, we have come a long way. People seemed to love my dream speech in 1963, which <highlight>started a revolution for equality</highlight>. I hope more people stand up for what is right, as I feel my life will be taken very soon."
       },
       {
         "name": "Gandhi",
