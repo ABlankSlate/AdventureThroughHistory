@@ -298,10 +298,22 @@ function buildHighlightContent(content) {
   var tagStart = content.search('<highlight>');
   var tagEnd = content.search('</highlight>');
   if(tagStart > -1 && tagEnd > -1) {
-    var change = content.substring(tagStart, tagEnd);
-    console.log('debug: ' + change);
-    return content;
+    var original = content.substring((tagStart+11), tagEnd);
+    var hlHash = generateHash();
+    var change = '<span class="ml14 subtitle is-5" hl-' + hlHash + '> <span class="text-wrapper"> <span class="letters">' + original + '</span> </span> </span>';
+    content.replace('<highlight>' + original + '</highlight>', change);
+    return buildHighlightContent(content);
   } else {
     return content;
   }
+}
+
+function generateHash() {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+  for(var i=0; i<5; i++)
+    text+=possible.charAt(Math.floor(Math.random() * possible.length));
+
+  return text;
 }
