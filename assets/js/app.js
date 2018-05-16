@@ -190,8 +190,10 @@ switch(page) {
           addScrollListener('^section:eq(10)', function() {setActiveTab('[nav-tabs]', 6)});
 
           // Highlight Effect Listeners
-          $('[hl]').each(function() {
-            addScrollListener('[hl="' + $(this).attr('hl') + '"]', function() {ml14($('[hl="' + $(this).attr('hl') + '"]'))});
+          var hlElements = document.querySelectorAll('[hl]');
+          hlElements.forEach(element => {
+            var attr = element.hl;
+            addScrollListener('[hl="' + attr + '"]', function() {ml14($('[hl="' + attr + '"]'))});
           });
           
           setTimeout(function() {
