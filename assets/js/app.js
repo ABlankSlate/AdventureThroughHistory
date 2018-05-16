@@ -193,7 +193,14 @@ switch(page) {
           var hlElements = document.querySelectorAll('[hl]');
           hlElements.forEach(element => {
             var attr = element.getAttribute('hl');
-            addScrollListener('[hl="' + attr + '"]', function() {ml14($('[hl="' + attr + '"]'))});
+            addScrollListener('[hl="' + attr + '"]', function() {ml14('[hl="' + attr + '"]')});
+          });
+
+          // Bouncy Image Effect Listeners
+          var biElements = document.querySelectorAll('[bouncy-img]');
+          biElements.forEach(element => {
+            var attr = element.getAttribute('bouncy-img');
+            addScrollListener('[bouncy-img="' + attr + '"]', function() {$('[bouncy-img="' + attr + '"]').addClass('animated bounce')});
           });
           
           setTimeout(function() {
@@ -206,17 +213,6 @@ switch(page) {
         }
       });
     }
-    break;
-  case '50s':
-    // Fidel Castro Effects
-    addScrollListener('[castro-img]', function() {$('[castro-img]').addClass('animated bounce')});
-    addScrollListener('[ml-castro-1]', function() {ml14('[ml-castro-1]')});
-    addScrollListener('[ml-castro-2]', function() {ml14('[ml-castro-2]')});
-
-    // Queen Elizabeth Effects
-    addScrollListener('[elizabeth-img]', function() {$('[elizabeth-img]').addClass('animated bounce')});
-    addScrollListener('[ml-elizabeth-1]', function() {ml14('[ml-elizabeth-1]')});
-    addScrollListener('[ml-elizabeth-1]', function() {ml14('[ml-elizabeth-2]')});
     break;
   default:
     console.log('No data for this page.');
@@ -330,9 +326,9 @@ function ml1() {
 function buildLRContent(title, photo, content, is_left) {
   content = buildHighlightContent(content);
   if(is_left) {
-    return '<div class="columns"> <div class="column is-one-quarter"> <div class="box" bouncy-img> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> <div class="column is-half ml-sect"> <br> <h3 class="title is-3">' + title + '</h3> <p class="subtitle is-5"> ' + content + ' </p> </div> </div>';
+    return '<div class="columns"> <div class="column is-one-quarter"> <div class="box" bouncy-img="' + generateHash() + '"> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> <div class="column is-half ml-sect"> <br> <h3 class="title is-3">' + title + '</h3> <p class="subtitle is-5"> ' + content + ' </p> </div> </div>';
   } else {
-    return '<div class="columns"> <div class="column is-quarter"></div> <div class="column is-quarter mr-sect"> <h3 class="title is-3">' + title + '</h3> <p class="subtitle is-5"> ' + content + ' </p> </div> <div class="column is-one-quarter"> <div class="box" elizabeth-img> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> </div>';
+    return '<div class="columns"> <div class="column is-quarter"></div> <div class="column is-quarter mr-sect"> <h3 class="title is-3">' + title + '</h3> <p class="subtitle is-5"> ' + content + ' </p> </div> <div class="column is-one-quarter"> <div class="box" bouncy-img="' + generateHash() + '"> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> </div>';
   }
 }
 
@@ -342,7 +338,7 @@ function buildHighlightContent(content) {
   if(tagStart > -1 && tagEnd > -1) {
     var original = content.substring((tagStart+11), tagEnd);
     var hlHash = generateHash();
-    var change = '<span class="ml14 subtitle is-5"> <span class="text-wrapper" hl=' + hlHash + '> <span class="letters">' + original + '</span> </span> </span>';
+    var change = '<span class="ml14 subtitle is-5" hl=' + hlHash + '> <span class="text-wrapper"> <span class="letters">' + original + '</span> </span> </span>';
     content = content.replace('<highlight>' + original + '</highlight>', change);
     return buildHighlightContent(content);
   } else {
