@@ -148,7 +148,7 @@ switch(page) {
           
           setTimeout(function() {
             $('.pageloader').removeClass('is-active');
-            $('html').attr('style', undefined);
+            $('html').attr('style', '');
             ml1();
           }, 500);
         } else {
