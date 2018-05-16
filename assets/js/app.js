@@ -267,27 +267,6 @@ function ml14(rootElem) {
   });
 }
 
-function ml6() {
-  $('.ml6 .letters').each(function() {
-    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-  });
-
-  setTimeout(function() {
-    $('.ml6').attr('style', '');
-  }, 50);
-  
-  anime.timeline({loop: false})
-    .add({
-      targets: '.ml6 .letter',
-      translateY: ["1.1em", 0],
-      translateZ: 0,
-      duration: 750,
-      delay: function(el, i) {
-        return 50 * i;
-      }
-    });
-}
-
 function ml1() {
   $('.ml1 .letters').each(function() {
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
