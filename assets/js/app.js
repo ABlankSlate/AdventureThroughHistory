@@ -221,6 +221,9 @@ switch(page) {
       });
     }
     break;
+  case 'timeline':
+    //TODO
+    break;
   default:
     console.log('No data for this page.');
     break;
