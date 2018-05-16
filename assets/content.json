@@ -1,0 +1,33 @@
+{
+  "50s": {
+    "one_big_idea": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque iaculis dolor at cursus. Nullam bibendum ex tellus, hendrerit rhoncus velit malesuada ac.",
+    "influential_people": [
+      {
+        "name": "Fidel Castro",
+        "photo": "/assets/img/castro.jpg",
+        "personal_account": "<highlight>Equality in Cuba is necessary.</highlight> I’ve done good, I’ve done bad, and I’ve made a change for better or for worse. People now have better health care and housing in Cuba. Yet, the citizens still feel the need to have word in the government. This shall not happen for I am the supreme leader of this country. More and more arrests shall be made against my own people for <highlight>they do not respect my power.</highlight> I used to preach open speech, yet now I despise it. My people need to know what I can do."
+      }
+    ],
+    "important_events": [
+      {
+        "title": "December 1952",
+        "photo": "http://via.placeholder.com/263x263",
+        "description": "The city of London was shut down due to a dense toxic smog that reduced visibility to only a few feet. This is the worst air pollution crisis in Europe to this day and it killed 8,000 to 12,000 people and around 4,000 babies died prematurely. Following the mass tragedy, Parliament passed The Clean Air Act of 1956 and prevented the burning of coal around an urban area and was the first step towards clean energy efforts in Europe."
+      }
+    ],
+    "global_hotspots": [
+      {
+        "region": "Hotspot Region",
+        "photo": "http://via.placeholder.com/363x363",
+        "description": "Description of the region will go here."
+      }
+    ],
+    "technological_advances": [
+      {
+        "name": "Advancement Name",
+        "photo": "http://via.placeholder.com/363x363",
+        "description": "Description of the advancement will go here."
+      }
+    ]
+  }
+}

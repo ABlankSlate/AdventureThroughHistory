@@ -75,7 +75,13 @@ function scrollToElem(elem) {
 
 const path = window.location.pathname.split('/');
 var page = path[path.length-1].split('.')[0];
+var hash = '';
 if(page == '') page = 'index';
+if(page.indexOf('#') > -1) {
+  var arr = page.split('#');
+  page = arr[0];
+  hash = arr[1];
+}
 
 switch(page) {
   case 'index':
@@ -93,7 +99,7 @@ switch(page) {
         $('[time-loader-2]').show();
         $('[time-loader-2]').addClass('animated lightSpeedIn');
         setTimeout(function() {
-          window.location.href = './' + $('[data-time-selection]').html() + '.html';
+          window.location.href = './capsule#' + $('[data-time-selection]').html();
         }, 1500);
       }, 500);
     });
@@ -110,6 +116,21 @@ switch(page) {
           return 800 * i;
         }
     });
+    break;
+  case 'capsule':
+    if(hash == '') {
+      window.location.href = '/';
+    } else {
+      fetch('/assets/content.json').then(function(response) {
+        return response.json();
+      }).then(function(content) {
+        if(content[hash] != undefined) {
+          //TODO
+        } else {
+          window.location.href = '/';
+        }
+      });
+    }
     break;
   case '50s':
     ml1();
