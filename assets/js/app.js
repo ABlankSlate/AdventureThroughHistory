@@ -181,13 +181,18 @@ switch(page) {
             scrollToElem($(this).attr('href'));
           });
 
-          // Nav Tab Active Listener
+          // Nav Tab Active Listeners
           addScrollListener('^section:eq(0)', function() {setActiveTab('[nav-tabs]', 1)});
           addScrollListener('^section:eq(2)', function() {setActiveTab('[nav-tabs]', 2)});
           addScrollListener('^section:eq(4)', function() {setActiveTab('[nav-tabs]', 3)});
           addScrollListener('^section:eq(6)', function() {setActiveTab('[nav-tabs]', 4)});
           addScrollListener('^section:eq(8)', function() {setActiveTab('[nav-tabs]', 5)});
           addScrollListener('^section:eq(10)', function() {setActiveTab('[nav-tabs]', 6)});
+
+          // Highlight Effect Listeners
+          $('[hl]').each(function() {
+            addScrollListener('[hl="' + $(this).attr('hl') + '"]', function() {ml14($('[hl="' + $(this).attr('hl') + '"]'))});
+          });
           
           setTimeout(function() {
             $('.pageloader').removeClass('is-active');
