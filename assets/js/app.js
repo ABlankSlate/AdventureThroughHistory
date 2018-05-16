@@ -202,6 +202,13 @@ switch(page) {
             var attr = element.getAttribute('bouncy-img');
             addScrollListener('[bouncy-img="' + attr + '"]', function() {$('[bouncy-img="' + attr + '"]').addClass('animated bounce')});
           });
+
+          // Pulse Image Effect Listeners
+          var puElements = document.querySelectorAll('[pulse-img]');
+          puElements.forEach(element => {
+            var attr = element.getAttribute('pulse-img');
+            addScrollListener('[pulse-img="' + attr + '"]', function() {$('[pulse-img="' + attr + '"]').addClass('animated pulse')});
+          });
           
           setTimeout(function() {
             $('.pageloader').removeClass('is-active');
@@ -326,7 +333,7 @@ function buildHighlightContent(content) {
 }
 
 function buildTimelineEvent(title, photo, content) {
-  return '<div class="timeline-item"> <div class="timeline-marker"></div> <div class="timeline-content"> <p class="heading">' + title + '</p> <div class="column is-one-quarter"> <div class="box"> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> <p>' + content + '</p> </div> </div>';
+  return '<div class="timeline-item"> <div class="timeline-marker"></div> <div class="timeline-content"> <p class="heading">' + title + '</p> <div class="column is-one-quarter"> <div class="box" pulse-img="' + generateHash() + '"> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> <p>' + content + '</p> </div> </div>';
 }
 
 function generateHash() {
