@@ -139,6 +139,21 @@ switch(page) {
             $('[filler-influential-people]').append(element);
             left = !left;
           });
+          left = true;
+          history['global_hotspots'].forEach(hotspot => {
+            var element = buildLRContent(hotspot['region'], hotspot['photo'], hotspot['description'], left);
+            $('[filler-global-hotspots]').append(element);
+            left = !left;
+          });
+          left = true;
+          history['technological_advances'].forEach(hotspot => {
+            var element = buildLRContent(hotspot['name'], hotspot['photo'], hotspot['description'], left);
+            $('[filler-technological-advances]').append(element);
+            left = !left;
+          });
+
+          // Timeline Content
+          //TODO
 
           // Nav Tab Smooth Scroll
           $('[nav-tabs] li a').on('click', function(e) {
@@ -300,8 +315,8 @@ function buildHighlightContent(content) {
   if(tagStart > -1 && tagEnd > -1) {
     var original = content.substring((tagStart+11), tagEnd);
     var hlHash = generateHash();
-    var change = '<span class="ml14 subtitle is-5" hl-' + hlHash + '> <span class="text-wrapper"> <span class="letters">' + original + '</span> </span> </span>';
-    content.replace('<highlight>' + original + '</highlight>', change);
+    var change = '<span class="ml14 subtitle is-5" hl hl-' + hlHash + '> <span class="text-wrapper"> <span class="letters">' + original + '</span> </span> </span>';
+    content = content.replace('<highlight>' + original + '</highlight>', change);
     return buildHighlightContent(content);
   } else {
     return content;
