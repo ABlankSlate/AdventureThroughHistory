@@ -126,7 +126,9 @@ switch(page) {
         return response.json();
       }).then(function(content) {
         if(content[hash] != undefined) {
-          //TODO
+          $('[filler-timeframe]').html(hash);
+          $('.pageloader').removeClass('is-active');
+          ml1();
         } else {
           window.location.href = '/';
         }
