@@ -120,7 +120,8 @@ switch(page) {
     break;
   case 'capsule':
     if(hash == '') {
-      window.location.href = '/';
+      console.log('fail');
+      //window.location.href = '/';
     } else {
       fetch('/assets/content.json').then(function(response) {
         return response.json();
@@ -128,7 +129,8 @@ switch(page) {
         if(content[hash] != undefined) {
           //TODO
         } else {
-          window.location.href = '/';
+          console.log('fail2');
+          //window.location.href = '/';
         }
       });
     }
