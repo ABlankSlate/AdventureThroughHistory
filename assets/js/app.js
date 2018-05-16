@@ -74,11 +74,12 @@ function scrollToElem(elem) {
 }
 
 const path = window.location.pathname.split('/');
-var page = path[path.length-1].split('.')[0];
+const lastPath = path[path.length-1];
+var page = lastPath.split('.')[0];
 var hash = '';
 if(page == '') page = 'index';
-if(page.indexOf('#') > -1) {
-  var arr = page.split('#');
+if(lastPath.indexOf('#') > -1) {
+  var arr = lastPath.split('#');
   page = arr[0];
   hash = arr[1];
 }
