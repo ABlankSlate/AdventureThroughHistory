@@ -7,6 +7,10 @@ video {
   z-index: 0;
 }
 
+img {
+  pointer-events: none !important;
+}
+
 .z-1 {
   z-index: 1;
 }
