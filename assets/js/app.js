@@ -344,7 +344,7 @@ function buildHighlightContent(content) {
 }
 
 function buildTimelineEvent(title, photo, content) {
-  return '<div class="timeline-item"> <div class="timeline-marker"></div> <div class="timeline-content"> <p class="heading">' + title + '</p> <figure class="image is-square"> <img src="' + photo + '"> </figure> <p>' + content + '</p> </div> </div>';
+  return '<div class="timeline-item"> <div class="timeline-marker"></div> <div class="timeline-content"> <p class="heading">' + title + '</p> <div class="column is-one-quarter"> <div class="box"> <figure class="image is-square"> <img src="' + photo + '"> </figure> </div> </div> <p>' + content + '</p> </div> </div>';
 }
 
 function generateHash() {
