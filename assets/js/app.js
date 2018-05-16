@@ -101,7 +101,7 @@ switch(page) {
         $('[time-loader-2]').addClass('animated lightSpeedIn');
         setTimeout(function() {
           window.location.href = './capsule#' + $('[data-time-selection]').html();
-        }, 1500);
+        }, 1000);
       }, 500);
     });
     animateHourglass('[data-hourglass]', 0);
@@ -126,9 +126,31 @@ switch(page) {
         return response.json();
       }).then(function(content) {
         if(content[hash] != undefined) {
+          const history = content[hash];
+
+          // Placeholder variables in HTML
           $('[filler-timeframe]').html(hash);
-          $('.pageloader').removeClass('is-active');
-          ml1();
+          $('[filler-one-big-idea]').html(history['one_big_idea']);
+
+          // Nav Tab Smooth Scroll
+          $('[nav-tabs] li a').on('click', function(e) {
+            e.preventDefault();
+            scrollToElem($(this).attr('href'));
+          });
+
+          // Nav Tab Active Listener
+          addScrollListener('^section:eq(0)', function() {setActiveTab('[nav-tabs]', 1)});
+          addScrollListener('^section:eq(2)', function() {setActiveTab('[nav-tabs]', 2)});
+          addScrollListener('^section:eq(4)', function() {setActiveTab('[nav-tabs]', 3)});
+          addScrollListener('^section:eq(6)', function() {setActiveTab('[nav-tabs]', 4)});
+          addScrollListener('^section:eq(8)', function() {setActiveTab('[nav-tabs]', 5)});
+          addScrollListener('^section:eq(10)', function() {setActiveTab('[nav-tabs]', 6)});
+          
+          setTimeout(function() {
+            $('.pageloader').removeClass('is-active');
+            $('body').attr('style', undefined);
+            ml1();
+          }, 500);
         } else {
           window.location.href = '/';
         }
@@ -136,22 +158,6 @@ switch(page) {
     }
     break;
   case '50s':
-    ml1();
-
-    // Nav Tab Smooth Scroll
-    $('[nav-tabs] li a').on('click', function(e) {
-      e.preventDefault();
-      scrollToElem($(this).attr('href'));
-    });
-
-    // Nav Tab Active Listener
-    addScrollListener('^section:eq(0)', function() {setActiveTab('[nav-tabs]', 1)});
-    addScrollListener('^section:eq(2)', function() {setActiveTab('[nav-tabs]', 2)});
-    addScrollListener('^section:eq(4)', function() {setActiveTab('[nav-tabs]', 3)});
-    addScrollListener('^section:eq(6)', function() {setActiveTab('[nav-tabs]', 4)});
-    addScrollListener('^section:eq(8)', function() {setActiveTab('[nav-tabs]', 5)});
-    addScrollListener('^section:eq(10)', function() {setActiveTab('[nav-tabs]', 6)});
-
     // Fidel Castro Effects
     addScrollListener('[castro-img]', function() {$('[castro-img]').addClass('animated bounce')});
     addScrollListener('[ml-castro-1]', function() {ml14('[ml-castro-1]')});
