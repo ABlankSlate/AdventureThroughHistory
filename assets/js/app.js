@@ -73,7 +73,7 @@ function scrollToElem(elem) {
   }, 500);
 }
 
-const path = window.location.pathname.split('/');
+const path = window.location.href.split('/');
 const lastPath = path[path.length-1];
 var page = lastPath.split('.')[0];
 var hash = '';
@@ -120,8 +120,7 @@ switch(page) {
     break;
   case 'capsule':
     if(hash == '') {
-      console.log('fail');
-      //window.location.href = '/';
+      window.location.href = '/';
     } else {
       fetch('/assets/content.json').then(function(response) {
         return response.json();
@@ -129,8 +128,7 @@ switch(page) {
         if(content[hash] != undefined) {
           //TODO
         } else {
-          console.log('fail2');
-          //window.location.href = '/';
+          window.location.href = '/';
         }
       });
     }
