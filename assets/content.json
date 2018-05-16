@@ -8,13 +8,28 @@
         "personal_account": "<highlight>Equality in Cuba is necessary.</highlight> I’ve done good, I’ve done bad, and I’ve made a change for better or for worse. People now have better health care and housing in Cuba. Yet, the citizens still feel the need to have word in the government. This shall not happen for I am the supreme leader of this country. More and more arrests shall be made against my own people for <highlight>they do not respect my power.</highlight> I used to preach open speech, yet now I despise it. My people need to know what I can do."
       }
     ],
-    "important_events": [
-      {
-        "title": "December 1952",
-        "photo": "http://via.placeholder.com/263x263",
-        "description": "The city of London was shut down due to a dense toxic smog that reduced visibility to only a few feet. This is the worst air pollution crisis in Europe to this day and it killed 8,000 to 12,000 people and around 4,000 babies died prematurely. Following the mass tragedy, Parliament passed The Clean Air Act of 1956 and prevented the burning of coal around an urban area and was the first step towards clean energy efforts in Europe."
-      }
-    ],
+    "important_events": {
+      "start_year": "1950",
+      "events": [
+        {
+          "title": "December 1952",
+          "item_type": "event",
+          "photo": "http://via.placeholder.com/263x263",
+          "description": "The city of London was shut down due to a dense toxic smog that reduced visibility to only a few feet. This is the worst air pollution crisis in Europe to this day and it killed 8,000 to 12,000 people and around 4,000 babies died prematurely. Following the mass tragedy, Parliament passed The Clean Air Act of 1956 and prevented the burning of coal around an urban area and was the first step towards clean energy efforts in Europe."
+        },
+        {
+          "title": "1953",
+          "item_type": "break"
+        },
+        {
+          "title": "March 1953",
+          "item_type": "event",
+          "photo": "http://via.placeholder.com/263x263",
+          "description": "American medical researcher Dr. Jonas Salk announced that he successfully created and tested a vaccine for Polio. Polio has affected humanity throughout history and can cause paralysis. The disease became widespread across the world in the late 19th and early 20th centuries. After the first year it was available, the number of Polio cases dropped severely and today there is only a handful of cases reported each year."
+        }
+      ],
+      "end_year": "1960"
+    },
     "global_hotspots": [
       {
         "region": "Hotspot Region",

@@ -134,26 +134,46 @@ switch(page) {
 
           // LR Content
           var left = true;
+          var current = 0;
           history['influential_people'].forEach(person => {
             var element = buildLRContent(person['name'], person['photo'], person['personal_account'], left);
             $('[filler-influential-people]').append(element);
             left = !left;
+            current++;
+            if(current < history['influential_people'].length) 
+              $('[filler-influential-people]').append('<br><br>');
           });
           left = true;
+          current = 0;
           history['global_hotspots'].forEach(hotspot => {
             var element = buildLRContent(hotspot['region'], hotspot['photo'], hotspot['description'], left);
             $('[filler-global-hotspots]').append(element);
             left = !left;
+            current++;
+            if(current < history['global_hotspots'].length) 
+              $('[filler-influential-people]').append('<br><br>');
           });
           left = true;
+          current = 0;
           history['technological_advances'].forEach(hotspot => {
             var element = buildLRContent(hotspot['name'], hotspot['photo'], hotspot['description'], left);
             $('[filler-technological-advances]').append(element);
             left = !left;
+            current++;
+            if(current < history['technological_advances'].length) 
+              $('[filler-influential-people]').append('<br><br>');
           });
 
           // Timeline Content
-          //TODO
+          $('[filler-important-events]').append('<header class="timeline-header"> <span class="tag is-medium is-primary">' + history['important_events']['start_year'] + '</span> </header>');
+          history['important_events']['events'].forEach(event => {
+            if(event['item_type'] == 'event') {
+              $('[filler-important-events]').append(buildTimelineEvent(event['title'], event['photo'], event['description']));
+            } else {
+              $('[filler-important-events]').append('<header class="timeline-header"> <span class="tag is-primary">' + event['title'] + '</span> </header>');
+            }
+          });
+          $('[filler-important-events]').append('<header class="timeline-header"> <span class="tag is-medium is-primary">' + history['important_events']['end_year'] + '</span> </header>');
 
           // Nav Tab Smooth Scroll
           $('[nav-tabs] li a').on('click', function(e) {
@@ -315,12 +335,16 @@ function buildHighlightContent(content) {
   if(tagStart > -1 && tagEnd > -1) {
     var original = content.substring((tagStart+11), tagEnd);
     var hlHash = generateHash();
-    var change = '<span class="ml14 subtitle is-5" hl hl-' + hlHash + '> <span class="text-wrapper"> <span class="letters">' + original + '</span> </span> </span>';
+    var change = '<span class="ml14 subtitle is-5" hl=' + hlHash + '> <span class="text-wrapper"> <span class="letters">' + original + '</span> </span> </span>';
     content = content.replace('<highlight>' + original + '</highlight>', change);
     return buildHighlightContent(content);
   } else {
     return content;
   }
+}
+
+function buildTimelineEvent(title, photo, content) {
+  return '<div class="timeline-item"> <div class="timeline-marker"></div> <div class="timeline-content"> <p class="heading">' + title + '</p> <figure class="image is-square"> <img src="' + photo + '"> </figure> <p>' + content + '</p> </div> </div>';
 }
 
 function generateHash() {
