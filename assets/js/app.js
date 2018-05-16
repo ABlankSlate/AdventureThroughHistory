@@ -192,7 +192,7 @@ switch(page) {
           // Highlight Effect Listeners
           var hlElements = document.querySelectorAll('[hl]');
           hlElements.forEach(element => {
-            var attr = element.hl;
+            var attr = element.getAttribute('hl');
             addScrollListener('[hl="' + attr + '"]', function() {ml14($('[hl="' + attr + '"]'))});
           });
           
