@@ -51,7 +51,7 @@
         "name": "Jonas Salk",
         "photo": "/assets/img/salk.jpg",
         "personal_account": "I developed the major vaccine for Polio in 1955. This disease was very dangerous and deadly at the time which was killing people very rapidly and spreads person to person and causes paralysis. This vaccine I developed saved thousands of lives of people infected or to be infected later without the vaccine. Thousands of kids died each year and the disease of Polio had reached maximum seriousness before the vaccine was developed."
-      },
+      }
     ],
     "important_events": {
       "start_year": "1950",
@@ -60,7 +60,7 @@
           "title": "June 1950 - July 1953",
           "item_type": "event",
           "photo": "http://via.placeholder.com/263x263",
-          "description": "",
+          "description": ""
         },
         {
           "title": "1952",
@@ -70,13 +70,13 @@
           "title": "April 1952",
           "item_type": "event",
           "photo": "http://via.placeholder.com/263x263",
-          "description": "",
+          "description": ""
         },
         {
           "title": "December 1952",
           "item_type": "event",
           "photo": "http://via.placeholder.com/263x263",
-          "description": "",
+          "description": ""
         },
         {
           "title": "1953",
@@ -143,7 +143,7 @@
           "item_type": "event",
           "photo": "http://via.placeholder.com/263x263",
           "description": ""
-        },
+        }
       ],
       "end_year": "1960"
     },
@@ -214,7 +214,7 @@
         "name": "Boris Yeltsin",
         "photo": "http://via.placeholder.com/363x363",
         "personal_account": "I was one of the most influential individuals in the 1990s due to the fact that I and Bill Clinton signed the Strategic Arms Reduction Treaty (START). This treaty would go on to promote world peace because it ridded of 80% of the world’s nuclear weapon inventory. Although another party tried to seize power in Russia I was able to withstand their push to overthrow the government. I believe I am a strong role model for young men and women because I showed if you stand with something you believe in, you can make it work."
-      },
+      }
     ],
     "important_events": {
       "start_year": "1990",
