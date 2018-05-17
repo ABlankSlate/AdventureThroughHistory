@@ -57,64 +57,92 @@
       "start_year": "1950",
       "events": [
         {
-          "title": "",
+          "title": "1950-1953",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/korean_war.jpg",
+          "description": "The Communist North Koreans invaded South Korea and the United States intervened to defend the South. The Soviets helped install a Communist regime in the North and the United States supported the South militarily and financially. The American intervention changed the war completely, as they and South Korea marched into North Korea. This resulted in a long three year stalemate in which there were many casualties for both sides. After the stalemate, the Americans and North Koreans signed a ceasefire which ended the war."
         },
         {
-          "title": "",
-          "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "title": "1952",
+          "item_type": "break"
         },
         {
-          "title": "",
+          "title": "1952",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "In 1952, the United States signed the Treaty of San Francisco to officially end the war between the U.S. and Japan. The United States ended their occupation and made Japan an independent country again. The Japanese gained protection if they were to be attacked. The Americans were allowed to have military bases around the country to defend against nearby communist countries."
         },
         {
-          "title": "",
+          "title": "1952",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "In 1952, the city of London was shut down due to a dense toxic smog that reduced visibility to only a few feet. This is the worst air pollution crisis in Europe to this day as it killed 8,000 to 12,000 people and around 4,000 babies died prematurely. Following the mass tragedy, Parliament passed The Clean Air Act of 1956 and prevented the burning of coal around an urban area and was the first step towards clean energy efforts in Europe."
         },
         {
-          "title": "",
-          "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "title": "1953",
+          "item_type": "break"
         },
         {
-          "title": "",
+          "title": "1953",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/polio_vaccine.jpg",
+          "description": "In 1953, American medical researcher, Dr. Jonas Salk, announced that he had successfully created and tested a vaccine for Polio. Polio has affected humanity throughout history and can cause paralysis. The disease became widespread across the world in the late 19th and early 20th centuries. After the first year it was available, the number of Polio cases dropped severely and today there is only a handful of cases reported each year."
         },
         {
-          "title": "",
-          "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "title": "1954",
+          "item_type": "break"
         },
         {
-          "title": "",
+          "title": "1954",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "The Brown v. Board of Education Supreme Court Case in 1954 made segregation in public schools illegal and unconstitutional. The ruling fueled to Civil Rights movement across the United States. This overturned the “separate but equal” doctrine and led to many segregation laws in America being overturned. Despite its impact, it failed to integrate all schools across the United States."
         },
         {
-          "title": "",
-          "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "title": "1956",
+          "item_type": "break"
         },
         {
-          "title": "",
+          "title": "October-November 1956",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "In 1956, the Soviets put a brutal end to the anti-Communist revolution in Hungary and a quarter million Hungarians fled the country. In October 1956, thousands of Hungarian protesters demanded for a more democratic political system. Communist party officials appointed Imre Nagy to restore peace and stability in the country and he demanded that the Soviets withdraw their troops and they complied. He also ended the peace treaty between the Soviets and Hungarians. On November 4, 1956 the Soviets crushed the revolt and it shocked the entire nation."
+        },
+        {
+          "title": "October 1956",
+          "item_type": "event",
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "In October 1956, Israeli forces pushed into Egypt toward the Suez along with British and French forces. The British and French actions nearly brought the Soviets into the conflict, which would have brought the United States into it as well. British and French troops took control around the area of the Suez Canal. Soviet leader Nikita Khrushchev threatened to launch nuclear missiles towards Western Europe if Israel, Britain and France did not withdraw their troops. The United States made threats of economic sanctions towards Britain and France if they did not withdraw their troops in an effort to avoid an all out nuclear war and the threats worked."
+        },
+        {
+          "title": "1957",
+          "item_type": "break"
+        },
+        {
+          "title": "1957",
+          "item_type": "event",
+          "photo": "/assets/img/sputnik.jpg",
+          "description": "When the Soviets successfully launched the Sputnik Satellite in 1957, it prompted new political, military, technological, and scientific developments. Also, it marked the beginning of the American-Soviet Space Race. However, this resulted in fears of a Soviet missile attack carrying nuclear weapons launched towards Europe or the United States because of this achievement. This resulted in a decades long named ‘Cold War’ between the United States and Soviet Union."
+        },
+        {
+          "title": "1958",
+          "item_type": "break"
+        },
+        {
+          "title": "1958",
+          "item_type": "event",
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "In an effort to catch up with Western economies, Mao Zedong, founder of the People’s Republic of China, launched the Great Leap Forward. Starting in 1958, the Chinese nation was experiencing a large famine. Due to The Great Leap Forward, at least 45 million Chinese people were worked, starved, or beaten to death. It was a period when a third of all Chinese homes were destroyed to produce fertilizer to grow food and boost the economy. Punishments for any crime were severe and inhumane."
+        },
+        {
+          "title": "1959",
+          "item_type": "break"
+        },
+        {
+          "title": "January 1959",
+          "item_type": "event",
+          "photo": "https://via.placeholder.com/263x263",
+          "description": "On January 1, 1959 future Cuban dictator Fidel Castro forced dictator Fulgencio Batista to flee the island and seized total power in Cuba. This made the United States uneasy because they had supported Batista in years past and they believed that Castro would carry out attacks on American investments and property in the country. Support for his revolution grew due to corruption, greed, and brutality within the Batista regime and the entire country celebrated when Batista was overthrown. When Castro officially took power, he made an alliance with communist Russia and became an enemy of the United States."
         }
       ],
       "end_year": "1960"
@@ -137,39 +165,39 @@
       },
       {
         "region": "Hungary",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/map_hungary.jpg",
         "description": "Hungary during the 1950’s was full of chaos. In 1956, after a speech given by the Soviet Union leader, Nikita Khrushchev, there was an uprising in Hungary. This uprising from the citizens after the encouragement of the new laws of freedom of freedom of debate, and criticism. During this adcal phase the citizens seize power and a new leader, Imre Nagy, became the new leader by promising a multiparty system of operations. As leader, Imre appealed to the United States to become allied with, but they declined because they thought it could lead to further conflict that affect the entire world. After the news that the United states would not help Hungary surfaced the Soviet Union invaded Hungary and took power. When the Soviet Union seized power the radical phase of defiance ended."
       },
       {
         "region": "London",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/map_london.jpg",
         "description": "London was a fearful place in the early 1950’s. In 1952, London was a standstill by a dense blacket of toxic smog. This toxic smog whipped around the city of London in 1952. The great smog caused visibility levels to reduce to just a few feet. The great smog became more deadly  through car fumes, coal fires, and power plants. This led to a public health disaster which killed 12,000 people. In the 1950’s, London was a global hotspot because of a health concerns and death percentages. The Great Smog of 1952 led to better health and science technology advances which have affected the world in a great way. The great smog helped everyone around the world become more advanced technologically for the health and safety of their people."
       }
     ],
     "technological_advances": [
       {
         "name": "The Internal Pacemaker",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/internal_pacemaker.jpg",
         "description": "Wilson Greatbatch created the first internal pacemaker in the year of 1958. This invention allows for the usage of electronic impulses to regulate a person's heart rate in order to steady it or keep someone alive. This invention is very influential because it is a big help to stop a major heart heart disease known as bradycardia. This invention came about through a mistake by Wilson who later discovered his mistake could stop a major heart disease. This invention has major impact on the world because it cured bradycardia and saves millions of lives by steadying people’s heart when they are sick. The invention of internal pacemaker led to hundreds of new inventions in the medical field that continue to help people today."
       },
       {
         "name": "The Hydrogen Bomb",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/hydrogen_bomb.jpg",
         "description": "The hydrogen bomb project was ordered in the the start of the 1950’s after the Soviet Union perfected their first atomic bomb. Harry Truman ordered the project to be completed in 1952. The United States and her allies constructed a three story tall experimental bomb that was named, “Mike”. Mike destroyed the island of Elugelab and parts of other islands around it. The manufacturing of this bomb put the United States power to new levels showing other countries like the Soviet Union that they do not mess around. This bomb is a major influential part of the 1950’s because it allowed the expansion and modernization of nuclear weapons and military power."
       },
       {
         "name": "The Polio Vaccine",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/polio_vaccine.jpg",
         "description": "The polio vaccine was created by Jonas Salk in 1995. The polio vaccine created of cure for the very contagious disease, known as Polio. Polio is a disease that can result in death or many defects to a person's body that will disable them for the rest of their life. The Polio vaccine saved millions of lives throughout the world in the 1950’s and still continues to stop the widespread disease. This vaccination also helped doctors expand into new modern technology in the medical field. Like the invention of the pacemaker, the Polio vaccine put an end to the Polio virus that claimed millions of lives."
       },
       {
         "name": "Cigarettes are reported to cause cancer",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/cigarettes.jpg",
         "description": "Cigarettes have been consumed by millions of people world wide ever since they were invented. Through both World Wars, cigarettes were a staple in every household. Billions of people world wide didn't know what they were putting in their body, they just did it for the buzz. In 1953, an experiment conducted by Ernst Wynder found out that the use of cigarette can cause cancerous tumors to develop inside of your lungs. These tumors can be created by the smoke of the cigarette. This experiment changed the minds of millions throughout the world. This experiment wa vital information to cigarette users and help people quit. Overall, this experiment didn’t come in time to put an end to a terrible epidemic but it allowed people to know that cigarettes could kill them."
       },
       {
         "name": "The Seat Belt",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "/assets/img/seat_belt.jpg",
         "description": "The seat belt was invented in 1959 by Nils Bohlin, who was an engineer for a car company  known as Volvo. This invention revolutionized the car sales and production for the company of Volvo. They released their invention of the seat belt to ensure safety for everyone who wasn’t driving a Volvo at the time. The seatbelt is very influential to the 1950’s to present time because it saved millions of lives from fatal car accidents or car malfunction. This invention allowed the opening for many new safety options to come into the world, it also saved millions of lives and ensured safety on the road."
       }
     ]
@@ -179,52 +207,52 @@
     "influential_people": [
       {
         "name": "Richard Nixon",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Nelson Mandela",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Mao Zedong",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "John F. Kennedy",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Fidel Castro",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Robert F. Kennedy",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "J. Edgar Hoover",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Martin Luther King Jr.",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Lyndon Johnson",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Curt Flood",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       }
     ],
@@ -234,61 +262,61 @@
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         }
       ],
@@ -297,54 +325,54 @@
     "global_hotspots": [
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ],
     "technological_advances": [
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ]
@@ -354,52 +382,52 @@
     "influential_people": [
       {
         "name": "Richard Nixon",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Indira Gandhi",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Steven Spielberg",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Steve Jobs",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Pol Pot",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Pope John Paul II",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Mother Teresa",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Leonid Brezhnev",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Gerald Ford",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Ho Chi Minh",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       }
     ],
@@ -409,61 +437,61 @@
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         }
       ],
@@ -472,54 +500,54 @@
     "global_hotspots": [
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ],
     "technological_advances": [
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ]
@@ -529,52 +557,52 @@
     "influential_people": [
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       }
     ],
@@ -584,61 +612,61 @@
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         }
       ],
@@ -647,54 +675,54 @@
     "global_hotspots": [
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ],
     "technological_advances": [
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ]
@@ -704,52 +732,52 @@
     "influential_people": [
       {
         "name": "Bill Clinton",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Nelson Mandela",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Pope John Paul II",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Oprah Winfrey",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Kim Jong II",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Mother Teresa",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Dolly the Sheep",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Sergey Brin & Larry Page",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Tim Berners Lee",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
         "name": "Boris Yeltsin",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       }
     ],
@@ -759,61 +787,61 @@
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
           "title": "",
           "item_type": "event",
-          "photo": "http://via.placeholder.com/263x263",
+          "photo": "https://via.placeholder.com/263x263",
           "description": ""
         }
       ],
@@ -822,54 +850,54 @@
     "global_hotspots": [
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "region": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ],
     "technological_advances": [
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
         "name": "",
-        "photo": "http://via.placeholder.com/363x363",
+        "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ]
