@@ -151,7 +151,7 @@ switch(page) {
             left = !left;
             current++;
             if(current < history['global_hotspots'].length) 
-              $('[filler-influential-people]').append('<br><br>');
+              $('[filler-global-hotspots]').append('<br><br>');
           });
           left = true;
           current = 0;
@@ -161,7 +161,7 @@ switch(page) {
             left = !left;
             current++;
             if(current < history['technological_advances'].length) 
-              $('[filler-influential-people]').append('<br><br>');
+              $('[filler-technological-advances]').append('<br><br>');
           });
 
           // Timeline Content
