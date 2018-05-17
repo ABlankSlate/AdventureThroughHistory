@@ -207,22 +207,22 @@
     "influential_people": [
       {
         "name": "Richard Nixon",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/nixon.jpg",
         "personal_account": "I, Richard Nixon, the Vice President of America. John F. Kennedy was recently assassinated so there was a position that just went up for the president of the United States. I have been appointed to be the U.S. president. That is a very big role and it takes a lot of big responsibility and I know, I can do the task. There are lots of crisis going on and I can put an end to them. I believe I am a good influence to the nation because I show the ability of listening to people and not back down."
       },
       {
         "name": "Nelson Mandela",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/mandela.jpg",
         "personal_account": "I, Nelson Mandela, first black president of South Africa have accomplished many things. I focused on destroying the Apartheid government which segregated blacks by law. In the 50’s, I was elected youth wing of the African National Congress movement. I continue into the 60’s to promote equal rights like Martin Luther King. I believe I am being a good leader by doing so. I am influential because I was the main help to get rid of the Apartheid in my country."
       },
       {
         "name": "Mao Zedong",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/zedong.jpg",
         "personal_account": "I, Mao Zedong, former president of china have been apart of prosperity and disappointments. I have continue to be involved in my countries struggles. I currently am joined in the Conference of the 7000 in Beijing. This is looked at as a great leap. I think I am a good leader because I’m trying to make China the greatest it can be, like testing nukes to straighten our military. I fear a corruption, coming because great power comes great responsibility. I was influential because my politics shaped the nation and also formed the foundation of the country to come."
       },
       {
         "name": "John F. Kennedy",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/j_kennedy.jpg",
         "personal_account": "I, John F. Kennedy, am currently the 35th President of the United State of America. I am currently 43 years old which makes me the youngest man and the first Roman Catholic to hold office. During my presidency so far I have taken on the challenge of confronting Cold War tensions in Cuba. Also I dealt with the Cuban missile crisis bringing peace of mind to the USA. I stand for the nation and will not let communism affect us. I was influential because I showed the willingness to take of crucial challenges, to show everyone they should not be afraid to speak up."
       },
       {
@@ -232,12 +232,12 @@
       },
       {
         "name": "Robert F. Kennedy",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/r_kennedy.jpg",
         "personal_account": "I, Robert F Kennedy, am the brother of John F Kennedy. Through the 1960’s I served as the U.S Attorney General after my brother, John F. Kennedy died. I was also a senator for New York from 1965-1968.  In my early years, I worked to improve my education by attending Harvard University and the Virginia School of Law. I believe I am a good leader that always works for the rights of the citizens. Working as the President’s close adviser I learned to oppose escalation of the Vietnam War. I’m important because i helped the government and the country with my new ways and also carrying on my brothers work."
       },
       {
         "name": "J. Edgar Hoover",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/hoover.jpg",
         "personal_account": "I, Edgar Hoover, live by many important beliefs. For example “the cure for crime is not the electric chair but the high chair.” I stand by my beliefs which I feel drive me to be the best leader I can be. As Director of the Federal Bureau of investigation, I am always trying to be the best I can. In the 60’s I have been in a number of movies trying to connect with fans through entertainment. I believe I am influential because I helped show new beliefs over crime and many other activities in this world."
       },
       {
@@ -247,12 +247,12 @@
       },
       {
         "name": "Lyndon Johnson",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/johnson.jpg",
         "personal_account": "I am Lyndon B Johnson your 36th President. I strongly believe in being humble. I feel that being humble is the way to success. I started my career as a teacher, then moving into the art of politics. As a young man, I almost died in WW2, because I entered the Naval Reserves. As I made my way up I wanted to work for the people to preventing war. I believe I am influential because I had a new way to look on war and a way to look on the world."
       },
       {
         "name": "Curt Flood",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/flood.jpg",
         "personal_account": "I, Curt Flood am an all star baseball player for the Saint Louis Cardinals. I am very active in my political stance, standing against the MLB reserve clause. I also stood against a decision made by the Supreme Court called Oliver Wendell Holmes decision. I see myself as more than a baseball player and more of someone who will stand for what’s right for the people. I want my name to be an example across the world to encourage others to create change. I was influential because I was helped show people a bigger outlook on things than just what they think."
       }
     ],
