@@ -262,7 +262,7 @@
         {
           "title": "1949 - 1976",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/china_republic.jpg",
           "description": "This form of government was created by Mao Zedong to help cleanse the Chinese culture of the impure and make them a better community. Mao Zedong launches the Cultural Revolution. Students and workers join the Red Guard and begin purging imperialists, who are believed to be opposed to Mao’s socialist vision."
         },
         {
@@ -272,7 +272,7 @@
         {
           "title": "1955 - 1975",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/vietnam_war.jpg",
           "description": "This war was a direct result of the first Indochina War between France which claimed Vietnam as a colony. This war was a long and costly conflict that pitted the communist government of North Vietnam against South Vietnam and its principal ally, The United States. More than 3 million people were killed in the Vietnam war and more than half of the dead were Vietnamese citizens. Opposition to the war in the United States bitterly divided Americans."
         },
         {
@@ -282,7 +282,7 @@
         {
           "title": "March 1960",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/sharpeville.jpg",
           "description": "The savage massacre of African patriots at Sharpeville and other places in South Africa on March 21, 1960, is a big significance in the struggle against apartheid and needs to be understood in its historical point of view. Sharpeville marked unquestionably a turning point in the struggle for liberation in Azania. This later on had a Revolutionary struggle against the white minority rule and the communism throughout South Africa. It resulted of 69 deaths and 180 injured and over 10,000 arrest."
         },
         {
@@ -292,7 +292,7 @@
         {
           "title": "October 1961",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/ussr_hydrogen_bomb.jpg",
           "description": "The Soviet union fires of 50-megaton hydrogen bomb, the biggest explosion in history. This showed the world that the Solviots weren’t messing around.  This told the world to be more cautious. But more importantly this showed Nuclear threats were growing. This event is important because it flows in to the Cuban Missile Crisis."
         },
         {
@@ -302,7 +302,7 @@
         {
           "title": "October 1962",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/cuban_missile_crisis.jpg",
           "description": "This was a crisis that the US later found out by their spy planes flying over Cuba to see the Russians camouflaging their missile collection over there. This later on led to both Us and the Soviet Union to prospere a deal and the deal was that if the Soviet Union takes out their supply of missiles in Cuba, that the US has to take out their similar missiles in Turkey."
         },
         {
@@ -312,7 +312,7 @@
         {
           "title": "November 1963",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/jfk_death.jpg",
           "description": "On November 22, 1963, President John F. Kennedy was shot and killed in Dallas,Texas. Lyndon Johnson is quick sworn in as president. John F. Kennedy’s assassination sent devastating shockwaves throughout countries. His death came as a shock because he was known for his dedication and willingness to take on challenges like the Cuban missile crisis. I think this is a key event because it shows how surprising war time can be."
         },
         {
@@ -322,13 +322,13 @@
         {
           "title": "July 1964",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/civil_rights_act.jpg",
           "description": "This was an act that helped the rights of any different man to have the same as the white or anyone else. This act ended segregation in public places and banned employment discrimination on the basis of their race. This is considered one of the crowning legislative achievements of the civil rights movement. One major key person who helped out this act was Martin Luther King Jr, who helped preach out to everyone that all rights should be equal to everyone no matter who or what they are. Also, they should allow colored people to work and go to school with white people and how all people should have the same respect and look onto as they do for themselves."
         },
         {
           "title": "August 1964",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/uss_maddox.jpg",
           "description": "The USS Maddox is on spy patrol 30 miles off the coast of Vietnam when it reports and attacked by three enemy vessels. Another US ship reports an attack on August 4. On August 7, congress passes the Gulf of Tonkin Resolution, allowed President Johnson to wage war against North Vietnam without a formal declaration of war. This is a top event because this is what dragged the US into the Vietnam War."
         },
         {
@@ -338,7 +338,7 @@
         {
           "title": "February 1966",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/luna_spacecraft.jpg",
           "description": "On February 3, 1966 the Soviet probe Luna 9 became the first spacecraft to make a controlled landing on the Moon, rather than crashing. The mission proved that landers wouldn’t sink into the dust on the Moon.  This event later on showed places around the world that they can now send off probes and maybe even space ships to the moon without crashing or sinking into the moon. This satellite device survived three days on the Moon without breaking. This later on sparked ideas for the US to send up new probe devices and also later on men to the Moon."
         },
         {
@@ -348,7 +348,7 @@
         {
           "title": "June 1968",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/rk_death.jpg",
           "description": "Robert Kennedy, brother of John F Kennedy, dies of a gunshot wound in Los Angeles the day after winning the California presidential primary on June 5, 1968. This is important because it showed that they need better security for those running for the president of the country. Now that both Kennedys were dead, it reminded many of the death of John F. Kennedy, which sent shockwaves to other countries."
         }
       ],
@@ -357,27 +357,27 @@
     "global_hotspots": [
       {
         "region": "USA-Cuban Missile Crisis",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/cuban_missile_crisis_2.jpg",
         "description": "The Cuban Missile Crisis Greatly enhanced JFK’s Prestige. The crisis alarmed the general public stories about an apocalypse started. Stories like these became more prevalent as the crisis continued. The crisis concerned The Soviet Union where to lead them to test their first nuke. Cuba became a hotspot as the US threatened to annihilate them."
       },
       {
         "region": "Vietnam-Vietnam War",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/vietnam_war.jpg",
         "description": "The Vietnam war damage the US economy severely the US had poured some $160 billion into the world. The cost was great but not as great as the damage it did to everyone involved. The US poured some 700,000 soldiers into the war. there were many problems that arose with the Vietnam war, like the veterans not getting the respect they deserve. The US who is also not happy with the amount of war we were getting into."
       },
       {
         "region": "Charlie Company",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/charlie_company.jpg",
         "description": "My Lai Massacre- Charlie Company, 11th Brigade, is on a search and destroy mission in the hamlet of My Lai. If something goes horribly wrong it will result in violent deaths of hundreds of unarmed civilians including women, children, and the elderly. After one and a half years the officer at My Lai is charged with murder. This event didn’t reach the media until November 1969."
       },
       {
         "region": "Cuba-Bay of Pigs",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/cuba_bay_of_pigs_invasion.jpg",
         "description": "CIA backed Cuban exiles launch a failed attack to remove Fidel Castro from power. This was looked at as an embarrassment.  This event questioned Kennedy's leadership leaving many in question.  Overall Kennedy was looked at as a hero because of his achievements before death. The Bay of Pigs is one of few losses for Kennedy."
       },
       {
         "region": "USA-Racial War",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/racial_war.jpg",
         "description": "The racial war in the US was caused by discrimination. There were riots put on by many but they were not as effective as MLK. MLK- Martin Luther King would peacefully protest.  He would give speeches asking for equal rights. This caused chaos and violence from both sides, this showed our distance as a country at the time. Time to come after the protest of MLK, the races around the world become not to discriminate each other anymore and work together as a group."
       }
     ],
