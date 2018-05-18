@@ -228,11 +228,9 @@ switch(page) {
       //TODO
 
       setTimeout(function() {
-        $('[pageloader-text]').html('Generating timeline...');
-        setTimeout(function() {
-          $('.pageloader').removeClass('is-active');
-          $('html').attr('style', '');
-        }, 500);
+        $('.pageloader').removeClass('is-active');
+        $('html').attr('style', '');
+        ml16();
       }, 500);
     });
     break;
@@ -318,6 +316,27 @@ function ml1() {
     offset: '-=875',
     delay: function(el, i, l) {
       return 80 * (l - i);
+    }
+  });
+}
+
+function ml16() {
+  $('.ml16').each(function() {
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  setTimeout(function() {
+    $('.ml16').attr('style', '');
+  }, 50);
+  
+  anime.timeline({loop: false})
+  .add({
+    targets: '.ml16 .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    duration: 1400,
+    delay: function(el, i) {
+      return 30 * i;
     }
   });
 }

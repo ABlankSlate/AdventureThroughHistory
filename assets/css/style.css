@@ -77,3 +77,8 @@ img {
   line-height: 1em;
   background: yellow;
 }
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
