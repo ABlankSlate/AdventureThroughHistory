@@ -375,12 +375,6 @@ function ml11() {
       delay: function(el, i) {
         return 34 * (i+1)
       }
-    }).add({
-      targets: '.ml11',
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 1000
     });
 }
 
