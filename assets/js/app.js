@@ -363,9 +363,10 @@ function ml11() {
       duration: 700
     }).add({
       targets: '.ml11 .line',
-      translateX: [0,($(".ml11 .letters").width()+5)],
+      translateX: [0,($(".ml11 .letters").width()+10)],
       easing: "easeOutExpo",
-      duration: 1500
+      duration: 2000,
+      delay: 500
     }).add({
       targets: '.ml11 .letter',
       opacity: [0,1],
@@ -380,7 +381,18 @@ function ml11() {
       opacity: [1,0],
       easing: "easeOutExpo",
       duration: 300,
-      delay: 100
+      delay: 500
+    }).add({
+      targets: '.ml11 .line',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 300,
+      delay: 500
+    }).add({
+      targets: '.ml11 .line',
+      opacity: [1,0],
+      easing: "easeOutExpo",
+      duration: 300
     });
 }
 
