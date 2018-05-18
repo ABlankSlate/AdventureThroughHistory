@@ -859,7 +859,7 @@
         {
           "title": "1990",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/mandela_released.jpg",
           "description": ""
         },
         {
@@ -869,19 +869,19 @@
         {
           "title": "January 1991",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/end_cold_war.jpg",
           "description": ""
         },
         {
           "title": "January 1991",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/gulf_war.jpg",
           "description": ""
         },
         {
           "title": "July 1991",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/start_treaty.jpg",
           "description": ""
         },
         {
@@ -891,7 +891,7 @@
         {
           "title": "December 1993",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/nafta_signed.jpg",
           "description": ""
         },
         {
@@ -901,7 +901,7 @@
         {
           "title": "January 1995",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/wto.jpg",
           "description": ""
         },
         {
@@ -911,7 +911,7 @@
         {
           "title": "July 1997",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/first_spacecraft.jpg",
           "description": ""
         },
         {
@@ -921,13 +921,13 @@
         {
           "title": "April 1999",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/columbine_shooting.jpg",
           "description": ""
         },
         {
           "title": "November 1999",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
+          "photo": "/assets/img/increase_of_aids_africa.jpg",
           "description": ""
         }
       ],
