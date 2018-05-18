@@ -57,7 +57,7 @@
       "start_year": "1950",
       "events": [
         {
-          "title": "1950-1953",
+          "title": "1950 - 1953",
           "item_type": "event",
           "photo": "/assets/img/korean_war.jpg",
           "description": "The Communist North Koreans invaded South Korea and the United States intervened to defend the South. The Soviets helped install a Communist regime in the North and the United States supported the South militarily and financially. The American intervention changed the war completely, as they and South Korea marched into North Korea. This resulted in a long three year stalemate in which there were many casualties for both sides. After the stalemate, the Americans and North Koreans signed a ceasefire which ended the war."
@@ -103,7 +103,7 @@
           "item_type": "break"
         },
         {
-          "title": "October-November 1956",
+          "title": "October - November 1956",
           "item_type": "event",
           "photo": "/assets/img/hungary_communist_revolution.jpg",
           "description": "In 1956, the Soviets put a brutal end to the anti-Communist revolution in Hungary and a quarter million Hungarians fled the country. In October 1956, thousands of Hungarian protesters demanded for a more democratic political system. Communist party officials appointed Imre Nagy to restore peace and stability in the country and he demanded that the Soviets withdraw their troops and they complied. He also ended the peace treaty between the Soviets and Hungarians. On November 4, 1956 the Soviets crushed the revolt and it shocked the entire nation."
@@ -493,7 +493,7 @@
           "item_type": "break"
         },
         {
-          "title": "1975-1979",
+          "title": "1975 - 1979",
           "item_type": "event",
           "photo": "/assets/img/cambodia_geno.jpg",
           "description": "Between 1975-1979, Pol Pot led a genocide in Cambodia. He was the leader of the Khmer Rouge, who wanted to establish control in Cambodia. This regime wanted to implement communism in Cambodia which caused more fear in the Western world about the further spread of communism. The Khmer Rouge thought the only way to implement communism was to kick everyone out of the cities and put them in hard labor camps where 1.7 million people were killed. This also impacted the world due to moral issues and the fact that the United Nations did not approve of these systematic and genocidal killings."
@@ -605,175 +605,195 @@
     ]
   },
   "80s": {
-    "one_big_idea": "",
+    "one_big_idea": "The 1980’s was a decade of political influence, pop culture, and new ideas of global prosperity. The 80’s helped set up future influences such as the end of the Cold War and new forms of pop music and rap. Many new inventions helped bring the world closer together with the development of the World Wide Web and the cell phone.",
     "influential_people": [
       {
-        "name": "",
+        "name": "Stephen Hawking",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Princess Diana",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Bill Gates",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Ryan White",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Ronald Reagan",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Steve Jobs",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Mikhail Gorbachev",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Michael Jackson",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Steven Spielberg",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       },
       {
-        "name": "",
+        "name": "Pope John Paul II",
         "photo": "https://via.placeholder.com/363x363",
         "personal_account": ""
       }
     ],
     "important_events": {
-      "start_year": "1980",
+      "start_year": "1979",
       "events": [
         {
-          "title": "",
+          "title": "1979 - 1981",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "1980 - Present",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "September 1980",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "1985",
+          "item_type": "break"
+        },
+        {
+          "title": "1985",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "1986",
+          "item_type": "break"
+        },
+        {
+          "title": "January 1986",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "1988",
+          "item_type": "break"
+        },
+        {
+          "title": "December 1988",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "1989",
+          "item_type": "break"
+        },
+        {
+          "title": "1989",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "June 1989",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "November 1989",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "1991",
+          "item_type": "break"
+        },
+        {
+          "title": "January 1991",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         }
       ],
-      "end_year": "1990"
+      "end_year": "1992"
     },
     "global_hotspots": [
       {
-        "region": "",
+        "region": "Uganda",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Cambodia invade Vietnam",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Falkland Islands",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Sudan",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Tiananmen China",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ],
     "technological_advances": [
       {
-        "name": "",
+        "name": "The Personal Computer",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "The Mobile Phone",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "Camcorder",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "Hepatitis B vaccine",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "DNA / Fingerprints",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
