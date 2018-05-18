@@ -255,7 +255,7 @@ switch(page) {
         $('.pageloader').removeClass('is-active');
         $('html').attr('style', '');
         ml16();
-        ml11();
+        ml2();
       }, 500);
     });
     break;
@@ -345,52 +345,26 @@ function ml1() {
   });
 }
 
-function ml11() {
-  $('.ml11 .letters').each(function(){
+function ml2() {
+  $('.ml2').each(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
   });
 
   setTimeout(function() {
-    $('.ml11').attr('style', '');
+    $('.ml2').attr('style', '');
   }, 50);
   
   anime.timeline({loop: false})
     .add({
-      targets: '.ml11 .line',
-      scaleY: [0,1],
+      targets: '.ml2 .letter',
+      scale: [4,1],
       opacity: [0,1],
+      translateZ: 0,
       easing: "easeOutExpo",
-      duration: 300
-    }).add({
-      targets: '.ml11 .line',
-      translateX: [0,($(".ml11 .letters").width()+10)],
-      easing: "easeOutExpo",
-      duration: 2000
-    }).add({
-      targets: '.ml11 .letter',
-      opacity: [0,1],
-      easing: "easeOutExpo",
-      duration: 600,
+      duration: 950,
       delay: function(el, i) {
-        return 12 * (i+1)
+        return 70*i;
       }
-    }).add({
-      targets: '.ml11 .line',
-      opacity: [1,0],
-      easing: "easeOutExpo",
-      duration: 300,
-      delay: 500
-    }).add({
-      targets: '.ml11 .line',
-      opacity: [0,1],
-      easing: "easeOutExpo",
-      duration: 300,
-      delay: 500
-    }).add({
-      targets: '.ml11 .line',
-      opacity: [1,0],
-      easing: "easeOutExpo",
-      duration: 300
     });
 }
 
