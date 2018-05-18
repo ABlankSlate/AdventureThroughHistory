@@ -22,15 +22,17 @@ function addScrollListener(elem, callback) {
 }
 
 $(window).on('scroll', function() {
-  if(!isScrolledIntoView('.hero-foot')) {
-    if(!fixedNav) {
-      fixedNav = true;
-      $('[nav-tabs]').addClass('is-fixed-top');
-    }
-  } else {
-    if(fixedNav) {
-      fixedNav = false;
-      $('[nav-tabs]').removeClass('is-fixed-top');
+  if($('[nav-tabs]').length !== 0) {
+    if(!isScrolledIntoView('.hero-foot')) {
+      if(!fixedNav) {
+        fixedNav = true;
+        $('[nav-tabs]').addClass('is-fixed-top');
+      }
+    } else {
+      if(fixedNav) {
+        fixedNav = false;
+        $('[nav-tabs]').removeClass('is-fixed-top');
+      }
     }
   }
   for(var i=0; i<scrollListenerElements.length; i++) {
