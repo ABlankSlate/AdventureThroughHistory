@@ -804,52 +804,52 @@
     "influential_people": [
       {
         "name": "Bill Clinton",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/clinton.jpg",
         "personal_account": ""
       },
       {
         "name": "Nelson Mandela",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/mandela.jpg",
         "personal_account": ""
       },
       {
         "name": "Pope John Paul II",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/jp2.jpg",
         "personal_account": ""
       },
       {
         "name": "Oprah Winfrey",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/oprah.jpg",
         "personal_account": ""
       },
       {
         "name": "Kim Jong II",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/jong2.jpg",
         "personal_account": ""
       },
       {
         "name": "Mother Teresa",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/teresa.jpg",
         "personal_account": ""
       },
       {
         "name": "Dolly the Sheep",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/dolly.jpg",
         "personal_account": ""
       },
       {
         "name": "Sergey Brin & Larry Page",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/sergey_larry.jpg",
         "personal_account": ""
       },
       {
         "name": "Tim Berners Lee",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/tim_lee.jpg",
         "personal_account": ""
       },
       {
         "name": "Boris Yeltsin",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/yeltsin.jpg",
         "personal_account": ""
       }
     ],
