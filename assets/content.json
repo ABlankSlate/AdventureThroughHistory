@@ -857,61 +857,55 @@
       "start_year": "1990",
       "events": [
         {
-          "title": "",
+          "title": "1990",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "January 1991",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "January 1991",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "July 1991",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "December 1993",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "January 1995",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "July 1997",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
+          "title": "April 1999",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
         },
         {
-          "title": "",
-          "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
-        },
-        {
-          "title": "",
+          "title": "November 1999",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
@@ -921,54 +915,54 @@
     },
     "global_hotspots": [
       {
-        "region": "",
+        "region": "Iraq",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Saudi Arabia",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Afghanistan",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Rwanda",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "region": "",
+        "region": "Somalia",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
     ],
     "technological_advances": [
       {
-        "name": "",
+        "name": "GPS",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "Text Messaging",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "Word Wide Web",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "MP3 Player",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       },
       {
-        "name": "",
+        "name": "DVD Player",
         "photo": "https://via.placeholder.com/363x363",
         "description": ""
       }
