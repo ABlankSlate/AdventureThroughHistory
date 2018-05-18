@@ -609,53 +609,53 @@
     "influential_people": [
       {
         "name": "Stephen Hawking",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/hawking.jpg",
+        "personal_account": "I made many scientific advancements. I had been one of the head of universal studies, like dark matter and black holes.I am a Lucasian Professor of Mathematics at the University of Cambridge.I also wrote a book called, 'A Brief History of Time.'"
       },
       {
         "name": "Princess Diana",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/diana.jpg",
+        "personal_account": "I am remembered as the 'People's Princess' because of my widespread popularity and global humanitarian efforts I was one of the first people to really bring importance to the aids virus."
       },
       {
         "name": "Bill Gates",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/gates.jpg",
+        "personal_account": "I was hired by IBM in the early '80s to create an operating system for a new PC. I went on to create MS - DOS and introduce the first version of Windows in 1985 for around $100. I worked closely with steve jobs and I had built an empire of my own. I made Microsoft, whose only real big competitor is Apple itself. I was the world's richest man and have dedicated to donating all of my earnings once I pass away to charity."
       },
       {
         "name": "Ryan White",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/ryan_white.jpg",
+        "personal_account": "I was diagnosed with Aids in December of 1984, when I was only 13 years old. I lived in Kokomo , Indiana where the doctors told me I had only 6 months to live. I tried to return to school, but I was faced with discrimination, yet because of this I became the face of public education and disease everywhere. Sadly I died one month before my graduation, yet still left a lasting concern and dedication for the helping and prevention of discrimination and  resisting education for anyone today."
       },
       {
         "name": "Ronald Reagan",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/reagan.jpg",
+        "personal_account": "I helped renew the cause of government and pressured the Soviet Union to stop the Cold War. I helped apply the conservative plans for decades after my presidency. I won two terms as president. I created Reaganomics and survived an assassination attempt. I delivered the biggest tax cuts in American history. I started the War on Drugs too. I also was an actor in my 20s which helped my presidency."
       },
       {
         "name": "Steve Jobs",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/jobs_2.jpg",
+        "personal_account": "I was a revolutionary inventor. I can arguably be credited with the way our modern world functions and even most of our childhoods. From my work on the Mac, my helping in the founding and success of Pixar, and with that they released a famous movie called Toy Story which was the first movie to be fully  CGI.  I am the bases of what we think a strong man and leader is and it's all thanks to my work in the 70s and 80s."
       },
       {
         "name": "Mikhail Gorbachev",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/gorbachev.jpg",
+        "personal_account": "I was the last president of the Soviet Union. I was awarded the Nobel Peace Prize for my leadership role in ending the Cold War  with my and Reagan’s efforts . I also promote peaceful international relations. I also was in a weapons race with Reagan on nuclear weapons but saw a tole was being taken on the Soviet Union so I sought change."
       },
       {
         "name": "Michael Jackson",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/jackson.jpg",
+        "personal_account": "Starting in my career with brothers in the Jackson 5 I rose to fame as the smallest, yet energetic Jackson. By 1978, I starred in the hit movie, “The Wiz” as the scarecrow, and I amazed the world with my James Brown inspired dance moves with my own unique flare. Despite that overwhelming success I backed it up with my hit album, Thriller. It made over 66 million dollars, more importantly I inspired a new generation of musicians from Chris Brown’s style to Bruno Mars’s whole presentation. I think that my greatest contribution is to the kids who still listen to my music today."
       },
       {
         "name": "Steven Spielberg",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/spielberg_2.jpg",
+        "personal_account": "I dominated the 80’s with movies such as: Raiders of the Lost Ark, E.T., and many more. I’ve created a rush a new movie goers and revolutionized the use of practical effects causing a wide change of the way movies are made and media in general in the world. I have had my work memorized on all forms of media from tv shows to newspapers. My movies will and have had a lasting impact from simple watchers, to teachers, to movie critics, and not to mention my many awards."
       },
       {
         "name": "Pope John Paul II",
-        "photo": "https://via.placeholder.com/363x363",
-        "personal_account": ""
+        "photo": "/assets/img/jp2_2.jpg",
+        "personal_account": "I was born in Poland and I started a revolution to help end the communism in the Soviet Union. I went to the Patriarch, Muslims, and apologized for the crusades. I also was the second longest serving pope after St.Pius. With my efforts, I began the process of religion united with the Eastern Orthodox Church."
       }
     ],
     "important_events": {
@@ -664,20 +664,20 @@
         {
           "title": "1979 - 1981",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/iran_hostage_crisis.jpg",
+          "description": "On November 4, 1979, 66 American diplomats and citizens were captured and held hostage in the Iran US embassy. College students smashed the walls and gates and infiltrated the embassy. After a while, 14 hostages were released. For 444 days, these people were held hostage. Many operations were sent to try to free the prisoners, but none succeeded. This sparked huge controversy during the 1980 election. California governor Ronald Reagan made efforts to expose Carter’s difficulties during the election process. Ronald Reagan won the election, and on the day of his inauguration the hostages were freed."
         },
         {
           "title": "1980 - Present",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/aids_epidemic.jpg",
+          "description": "During the 1980’s a major disease that was affecting many people was AIDS.  In the beginning of the decade, many men would get really sick and then die. The death toll in men, especially men who were homosexual, would attract a disease then die. Dr. Jesse Peel would notice a pattern of this disease. The news was spread throughout the US and the world. This disease was not identified and was not studied. This disease attracted the name “Gay Cancer” which was a horrific name, but the reason for this is that the news was that only gay men could attract this. This scared everyone because doctors and scientists could not figure out how this disease was spread so many people were afraid of eating food, using public restrooms, and nurses would stop entering rooms of victims of AIDS. During this time, no one would touch an AIDS victim without a form of protection. A huge step in the AIDS epidemic was from Princess Diana of Wales shook an AIDS victim hand and that shocked the world. No one had ever done that ever. Princes Diana changed the world and humanized these people."
         },
         {
           "title": "September 1980",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/iran_iraq_war.jpg",
+          "description": "The Iran-Iraq War was a major war in the 80’s. The Iraqi leader, Saddam Hussein, ordered his troops to invade Western Iran due to a territorial dispute over the Shatt Al-Arab, the waterway which forms the boundary between the two countries. This invasion on September 22, 1980 led to an eight year war which was between the two countries. This war lasted until 1988 when there was a ceasefire. No treaty was signed until August of 1990. "
         },
         {
           "title": "1985",
@@ -686,8 +686,8 @@
         {
           "title": "1985",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/iran_contra_affair.jpg",
+          "description": "In 1985, Ronald Reagan and other American officials were giving weapons to Iran for the release of hostages. Iran, a sworn enemy of the US, captured US hostages in Lebanon. The US took money and funneled it to Anti-Communist Contras in Nicaragua. The United States gave Hawk missiles and TOW which were anti-tank weapons in exchange for these hostages. Some considered it an 80’s watergate."
         },
         {
           "title": "1986",
@@ -696,8 +696,8 @@
         {
           "title": "January 1986",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/challenger_explosion.jpg",
+          "description": "On the morning of January 28, 1986, the space shuttle Challenger was set to take off from Kennedy Space Center and go into space. The mission was important due to it would have been the first time a civilian would have entered space. The civilian was teacher, Christa McAuliffe, who was a mother and the next step into space travel. The Challenger was delayed due to weather and technical problems for 6 days. On January 28, there were warnings of the rubber surrounding the rocket boosters would fail due to the temperature. These mistakes were denied and the Challenger was scheduled to fly at 11:30 A.M. When the astronauts and Mrs. McAuliffe boarded Challenger, family, friends, and millions of Americans watched as this historic event was getting ready to take place. At 11:30 the boosters shot out fire and Challenger lifted off. For the first minute, everything seemed normal as tears filled the eyes of joyful bystanders and Americans celebrated. Seventy three seconds into the flight, the shuttle sparked and a fireball rushed from the boosters to the cockpit causing the shuttle to explode into pieces. All watched in horror as CNN still broadcasted the explosion. The nation was crushed and later that night, President Reagan gave a heartfelt address. This is an important piece in history which is why we must always remember the brave men and women on Challenger."
         },
         {
           "title": "1988",
@@ -706,8 +706,8 @@
         {
           "title": "December 1988",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/lockerbie_disaster.jpg",
+          "description": "The Iran-Iraq War was a major war in the 80’s. The Iraqi leader, Saddam Hussein, ordered his troops to invade Western Iran due to a territorial dispute over the Shatt Al-Arab, the waterway which forms the boundary between the two countries. This invasion on September 22, 1980 led to an eight year war which was between the two countries. This war lasted until 1988 when there was a ceasefire. No treaty was signed until August of 1990. "
         },
         {
           "title": "1989",
@@ -716,20 +716,20 @@
         {
           "title": "1989",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/world_wide_web.jpg",
+          "description": "In 1989, Tim Berners-Lee, a British scientist, had the idea of creating a network in which people could communicate on a faster level and find information in an instant. In March of ‘89, Berners-Lee proposed the idea of the World Wide Web (www). At first his idea was rejected, but soon after he was working on many different projects. After many years of work, the World Wide Web was invented including three other fundamental technologies: http, html, and url. The final product was produced in 1990 and was accessible to everyone in 1991."
         },
         {
           "title": "June 1989",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/tiananmen_massacre.jpg",
+          "description": "On June 4, 1989 pro-democracy protesters campaigned outside of China’s Tiananmen Square in Beijing and they were interrupted by government military force. For three weeks, they protested for a democracy for the Chinese people. This was filled of young college students and other anti-communist citizens who called for the communist leaders to resign. For nearly three weeks, the protesters kept up daily vigils, marched, and chanted for freedom. On June 4, 1989, government leaders used martial law to out the protesters and stop all the commotion. This event was broadcasted by many news outlets. This protest was a major symbol for those trapped in communist government in which men and women wanted freedom and western ideas. Turmoil ensued, as tens of thousands of the young students and other protesters tried to escape the Chinese forces. This event was eventually broken up due to the military using force, killing thousands and arresting 10,000 protesters. This sparked a downfall for communism and the ideas it spread."
         },
         {
           "title": "November 1989",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/collapse_berlin_wall.jpg",
+          "description": "In 1961 a wall was put up in between East Berlin and West Berlin, Germany. Germany was divided up after World War Two, where the east was given to the Soviet Union and the west to America, Great Britain, and France.  During this time many refugees tried to flood over to the opposing side due to harsh conditions or family. After many fights broke out, a wall was constructed. Although some agreed with the wall such as President Kennedy, they did not understand the damage this wall would do. On the eastern side, life was miserable. The citizens had to live under communist rule. Conditions were terrible and many tried to escape. Those who managed to escape most likely were killed on the death strip in between the walls. Through the wall’s many years it became a symbol of oppression. Many leaders came to visit the wall such as the queen and President Ronald Reagan. Ronald Reagan gave his speech with the famous line,” Tear down this wall!” This was a huge event to help lead to the end of the Cold War."
         },
         {
           "title": "1991",
@@ -738,8 +738,8 @@
         {
           "title": "January 1991",
           "item_type": "event",
-          "photo": "https://via.placeholder.com/263x263",
-          "description": ""
+          "photo": "/assets/img/end_cold_war.jpg",
+          "description": "The Cold War was the cause of the two most powerful global superpowers having multiple disputes since WWI. The Soviet Union and the United States were both trying to keep power after WWI. Each country would use spies to try and infiltrate each other. They would accuse each other of espionage. Also contributing was many conflicts in Vietnam of with both of them trying to spread the idea of Communism from the Soviet Union or to stop the spread of Communism such as what the United States did. From 1947-1980’s, the world was frightened that a nuclear war would come about causing global extinction. In the 60’s, children would practice a protocol if a Soviet bomb would be dropped near the school. That all changed in the 1980’s when Russian leader Mikhail Gorbachev and the United States President Ronald Reagan had many meetings on how to denuclearize. In the end, the Soviet Union fell apart and with the collapse of the Berlin Wall, Communism failed and the Cold War ended on January 1, 1991."
         }
       ],
       "end_year": "1992"
@@ -747,60 +747,60 @@
     "global_hotspots": [
       {
         "region": "Uganda",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/uganda.jpg",
+        "description": "The Ugandan Civil War is a war that was between the Ugandan government  and the Ugandan Rebelion group. Facing oppression from the government, hundreds of people were killed in the rebellion against the Ugandan government, and an estimated 400,000 people were left homeless. The war was 2 decades long and ended in 1986."
       },
       {
         "region": "Cambodia invade Vietnam",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/cambodia_vietnam.jpg",
+        "description": "Cambodia invaded Vietnam multiple times. Vietnam had no choice but to retaliate. The Vietnamese overpowered the Cambodians. The Vietnamese army won the war. The war proved that the Vietnamese were not a weak country."
       },
       {
         "region": "Falkland Islands",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/falkland_islands.jpg",
+        "description": "The Falkland War, Malvis War, or South Atlantic War was an undeclared war between Argentina and Great Britain. The war was fought for control over the Falkland Islands in 1982. It consisted of many navy battles. Britain won the war. It showed an advance in navy warfare."
       },
       {
         "region": "Sudan",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/sudan.jpg",
+        "description": "Conflict between Sudan government and the Sudan rebellious group. The civil war consisted of two wars. The wars started because the government was set up to where there was one ruler, it was a totalitarian government. The citizens didn’t like not having freedom. Eventually this caused a change in government."
       },
       {
         "region": "Tiananmen China",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/tiananmen_china.jpg",
+        "description": "An incident in china where the citizens were protesting against the government. The protest took place in Tiananmen Square in Beijing. The protest resulted in a massacre. It also caused an economic crash in China. This weakened the spread of communism and the Chinese governments."
       }
     ],
     "technological_advances": [
       {
         "name": "The Personal Computer",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/pc.jpg",
+        "description": "A personal computer is revolutionary device that is still used today. It was first invented by the technology company IBM and is continuously being made better. The computer’s first use was just for programming. Afterwards they became a thing for all people to use, they changed how media is distributed and  how things are made."
       },
       {
         "name": "The Mobile Phone",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/mobile_phone.jpg",
+        "description": "The mobile phone is a device that allows you to communicate with other people through long distance. The mobile telephone was controlled by a telephone operator. It allowed actual verbal conversation across two areas."
       },
       {
         "name": "Camcorder",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/camcorder.jpg",
+        "description": "The camcorder is a device similar to the mobile phone. It was your own personal camera. It was the 1st camera of its size, it wasn’t as bulky as other cameras. It was revolutionary to documenters."
       },
       {
         "name": "Hepatitis B vaccine",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/hepatitis_b_vac.jpg",
+        "description": "The vaccination for Hepatitis B was created before an outbreak occurred. It saved millions of lives that had it, and saved those who didn’t. It was beneficial to everyone worldwide. The vaccine was one of the greatest accomplishments of the decade."
       },
       {
         "name": "DNA / Fingerprints",
-        "photo": "https://via.placeholder.com/363x363",
-        "description": ""
+        "photo": "/assets/img/fingerprints.jpg",
+        "description": "DNA and fingerprints were a discovery that affected how we think of the human body. They affected the way crimes are analyzed. They are filled with information about the person whose dna it is. Dna was revolutionary to humanization."
       }
     ]
   },
   "90s": {
-    "one_big_idea": "",
+    "one_big_idea": "The 90’s were a time where the world really prospered. It has been called in many occasions “the decade that never ends”, because of everything it later out for the future. Not only was it a gold mine for technology, creating and laying the blueprints for things that we still use today, but it also helped the world with wars. Many countries made treaties and saw eye to eye with their problems, until early 2000’s of course, but it was a start. There were many people and inventions that paved the way for what we are now and how we do things. The 90’s will be a time we will always remember and thrive off.",
     "influential_people": [
       {
         "name": "Bill Clinton",
