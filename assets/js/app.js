@@ -222,7 +222,19 @@ switch(page) {
     }
     break;
   case 'timeline':
-    //TODO
+    fetch('/assets/content.json').then(function(response) {
+      return response.json();
+    }).then(function(content) {
+      //TODO
+
+      setTimeout(function() {
+        $('[pageloader-text]').html('Generating timeline...');
+        setTimeout(function() {
+          $('.pageloader').removeClass('is-active');
+          $('html').attr('style', '');
+        }, 500);
+      }, 500);
+    });
     break;
   default:
     console.log('No data for this page.');
