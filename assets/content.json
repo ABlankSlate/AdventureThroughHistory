@@ -936,54 +936,54 @@
     "global_hotspots": [
       {
         "region": "Iraq",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/afgh.jpg",
         "description": ""
       },
       {
         "region": "Saudi Arabia",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/arabia.jpg",
         "description": ""
       },
       {
         "region": "Afghanistan",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/afgh.jpg",
         "description": ""
       },
       {
         "region": "Rwanda",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/rwanda.jpg",
         "description": ""
       },
       {
         "region": "Somalia",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/somalia.jpg",
         "description": ""
       }
     ],
     "technological_advances": [
       {
         "name": "GPS",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/gps.jpg",
         "description": ""
       },
       {
         "name": "Text Messaging",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/text_messaging.jpg",
         "description": ""
       },
       {
         "name": "Word Wide Web",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/world_wide_web_2.jpg",
         "description": ""
       },
       {
         "name": "MP3 Player",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/mp3_player.jpg",
         "description": ""
       },
       {
         "name": "DVD Player",
-        "photo": "https://via.placeholder.com/363x363",
+        "photo": "/assets/img/dvd_player.jpg",
         "description": ""
       }
     ]
