@@ -363,7 +363,7 @@ function ml2() {
       easing: "easeOutExpo",
       duration: 950,
       delay: function(el, i) {
-        return 15*i;
+        return 5*i;
       }
     });
 }
