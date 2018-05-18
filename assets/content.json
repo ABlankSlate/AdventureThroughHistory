@@ -863,6 +863,10 @@
           "description": ""
         },
         {
+          "title": "1991",
+          "item_type": "break"
+        },
+        {
           "title": "January 1991",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
@@ -881,10 +885,18 @@
           "description": ""
         },
         {
+          "title": "1993",
+          "item_type": "break"
+        },
+        {
           "title": "December 1993",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
+        },
+        {
+          "title": "1995",
+          "item_type": "break"
         },
         {
           "title": "January 1995",
@@ -893,10 +905,18 @@
           "description": ""
         },
         {
+          "title": "1997",
+          "item_type": "break"
+        },
+        {
           "title": "July 1997",
           "item_type": "event",
           "photo": "https://via.placeholder.com/263x263",
           "description": ""
+        },
+        {
+          "title": "1999",
+          "item_type": "break"
         },
         {
           "title": "April 1999",
