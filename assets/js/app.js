@@ -365,7 +365,7 @@ function ml11() {
       targets: '.ml11 .line',
       translateX: [0,($(".ml11 .letters").width()+5)],
       easing: "easeOutExpo",
-      duration: 700,
+      duration: 1500,
       delay: 100
     }).add({
       targets: '.ml11 .letter',
@@ -378,9 +378,9 @@ function ml11() {
       }
     }).add({
       targets: '.ml11 .line',
-      translateX: [0,0],
+      opacity: [1,0],
       easing: "easeOutExpo",
-      duration: 700,
+      duration: 300,
       delay: 100
     });
 }
