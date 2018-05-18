@@ -225,7 +225,22 @@ switch(page) {
     fetch('/assets/content.json').then(function(response) {
       return response.json();
     }).then(function(content) {
-      //TODO
+      const firstYear = content['50s']['important_events']['start_year'];
+      const lastYear = content['90s']['important_events']['end_year'];
+      const decades = ['50s', '60s', '70s', '80s', '90s'];
+      
+      // Timeline Content
+      $('[filler-timeline]').append('<header class="timeline-header"> <span class="tag is-medium is-primary">' + firstYear + '</span> </header>');
+      decades.forEach(decade => {
+        content[decade]['important_events']['events'].forEach(event => {
+          if(event['item_type'] == 'event') {
+            $('[filler-timeline]').append(buildTimelineEvent(event['title'], event['photo'], event['description']));
+          } else {
+            $('[filler-timeline]').append('<header class="timeline-header"> <span class="tag is-primary">' + event['title'] + '</span> </header>');
+          }
+        });
+      });
+      $('[filler-timeline]').append('<header class="timeline-header"> <span class="tag is-medium is-primary">' + lastYear + '</span> </header>');
 
       setTimeout(function() {
         $('.pageloader').removeClass('is-active');
